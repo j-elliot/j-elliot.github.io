@@ -35,7 +35,7 @@
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
 \def \@name {} % Sets \@name to empty by default
 
-\def \addressSep {$\diamond$} % Set default address separator to a diamond
+\def \addressSep {$\bullet$} % Set default address separator to a diamond
 
 % One, two or three address lines can be specified 
 \let \@addressone \relax
@@ -99,18 +99,28 @@
   \sectionlineskip
   \hrule % Horizontal line
   \begin{list}{}{ % List for each individual item in the section
-    \setlength{\leftmargin}{1.5em} % Margin within the section
+    \setlength{\leftmargin}{1.0em} % Margin within the section
   }
   \item[]
 }{
   \end{list}
 }
 
+\newenvironment{rSubSection}[1]{% 1 argument - subsection name
+    {\bf #1} %the title
+    \begin{list}{$\cdot$}{ %SubList
+        \setlength{\leftmargin}{1.0em} %margin -- is this relative or absolute
+    }
+    \item[]
+}{
+    \end{list}
+}
+
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
 
-\newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
+\newenvironment{rWorkSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location
  {\bf #1} {#2} % Bold company name and date on the right
  \ifthenelse{\equal{#3}{}}{}{ % If the third argument is not specified, don't print the job title and location line
   \\
