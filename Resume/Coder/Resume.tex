@@ -23,11 +23,11 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{tikz}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{J. Elliot Miller} % Your name
-\address{18 Nelson Hill \\ Wassaic, New York 12592} % Your address
-%\address{18 Nelson Hill \\ Wassaic, New York 12592} % Your secondary addess (optional)
+\address{18 Nelson Hill \\ Wassaic, New York 12592} % Your secondary addess (optional)
 \address{717-398-1540 \\ elliot@alum.bucknell.edu \\ j-elliot@github.io} % Your phone number and email
 
 \begin{document}
@@ -35,32 +35,177 @@
 %----------------------------------------------------------------------------------------
 %	HEADLINE SECTION
 %----------------------------------------------------------------------------------------
+\iffalse
+\begin{rSection}{Headline}
 
-%\begin{rSection}{Headline}
+Bucknell 2019 Computer Science graduate seeking... stuff. \\
 
-%Writing versatile code using diverse experience and critical solution seeking\\
+\end{rSection}
 
-%\end{rSection}
+\begin{rSection}{Headline}
+
+Elliot: International Man of Technology \\
+
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	BIO SECTION
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Bio}
+\begin{rSection}{Bio}
 
-%Elliot is a recent computer science graduate of Bucknell University. Through his own startup, he has been involved with the launch and operations of several small businesses. Now that he’s preparing to synthesize his technology and business foundations, he laments the lack of time to explore the rich world of late ‘80s video games. \\
+A \textit{cum laude} computer science graduate of Bucknell University, has been involved with the launch and operations of several small businesses. Co-authored a paper on the gamification of electronics education and is currently working on a second paper on $\epsilon$-Differential Privacy protections against adversarial knowledge assumptions; exploring how to exploit the rich world of late ‘80s video games. \\
 
-%\end{rSection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	GOAL SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Career Goals}
+
+Concrete - ``To explore the the ways AI can improve educational access and further engagement among underserved communities using my unique combination of educational theory, psychology, and computer science skillset.'' \\
+
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	ELEVATOR PITCH SECTION
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Elevator Pitch}
+\begin{rSection}{Elevator Pitch}
 
-%Elliot combines a broad array of skills and experiences from across disciplines, collar colors, and industries to be a leader who can understand and communicate with people from any position or background, and a worker who can fill almost any role and occupy any space. \\
+Elliot combines a broad array of skills and experiences from across disciplines, collar colors, and industries to be a leader who can understand and communicate with people from any position or background, and a worker who can fill almost any professional role and occupy any company space. \\
 
-%\end{rSection}
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects} \vspace{-0.25em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Categorical Logic Solver}{2017}{Program for determining the validity of categorical syllogisms according to Aristotle and Boole}{}
+\item Written in C
+\item Explores the close relationship of logic as a philosophical discipline with rudimentary gate functions
+\item Converts logic problem space to binary dimensions solved with nested looping algorithm
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Super Chess}{2009}{Game platform for parsing strategic thinking from rule learning}{}
+\item Written in Visual Basic and AutoCAD
+\item A multivariate chess-like board game developed to explore the divorce of strategy from experience
+\item Uses plethora of user and randomly chosen game rule variables to build continually unique game play
+\item Coded in Visual Basic using AutoCAD scripting and modelling as {\em ad hoc} graphics engine
+\item Future work will rewrite game for a new platform
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{World of Hellos}{2019 \& ongoing}{Exploration of common and esoteric languages}{}
+\item Written in Python, Python 3, Ruby, Java, C, C++, Fortran, Fortran90, R, Lisp, JavaScript, \& C\#
+\item Uses file management, recipe parsing, and command line calls to compile and run Hello World in any given language
+\item Accepts output of programs it runs to confirm proper execution
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Project Management Backend}{2019 \& ongoing}{Versatile task management backend}{}
+\item Written in C++
+\item Uses C-language pointers to structure task dependency and link ancillary information to appropriate parent structures
+\item Explores integration of common database tools with linked list programmatic representation
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Math Generator}{2019}{Mathematics practice problem generator}{}
+\item Written in C++
+\item Uses basic computer arithmetic to generate problems and solutions as a teacher's aide
+\item Future work will implement a learning model of Advanced Exposure to embed simple tasks in a context of an advanced problem
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{j-elliot.github.io}{2019}{Personal Website}{}
+\item Written in HTML and CSS
+\item Showcases projects and Curiculum Vitea information as well as personal philosophy
+\item Includes a sexy calendar
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Curiculum Vitea}{2017 \& ongoing}{This resum\'{e} that you're reading right now!}{}
+\item Written in \LaTeX
+\item Uses custom .cls file to streamline parsing of broad CV into job-specific resum\'{e}s
+\end{rWorkSubsection}\vspace{-0.5em}
+\fi
+%------------------------------------------------
+
+\begin{rWorkSubsection}{The Borden House}{2019 \& ongoing}{Restoration of a local architectural icon}{}
+\item Consulting contractor in the restoration and refurbishment of a nineteenth century Victorian ch\^{a}teau
+\item Oversees electrical and plumbing systems maintenance and development
+\item Assists in steampunk aesthetic design realization
+\item Drafted whole house floor plans in AutoCAD along with grounds layout
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{VR Dragon Riding Simulator}{2019}{Phone-based virtual reality dragon riding}{}
+\item Programmed in C\# and Unity
+\item Uses Google cardboard with motion controls to navigate environment in three dimensions 
+\item Implements button input to trigger custom attack animations on stock sprites
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Overwatch Gesture}{2019}{Leap motion gesture control for Overwatch}{}
+\item Programmed in Java
+\item Intuitively maps Leap Motion-defined hand gestures to game inputs
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Circuit Theory Game}{2018}{Developed game to intuitively teach circuit theory}{}
+\item Programmed in C\#, Unity, Bash, and SPICE
+\item Eschews numbers and text in favor of immediate visual feedback of circuit activity
+\item Represents visual circuit graphs as connection matrices
+\item Converts matrix representation to text file for input to SPICE
+\item Parses SPICE output into matrix and visual representation using the Edmunds-Karp algorithm
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Gettysburg Soccer Academy}{2014}{}{}
+\item 
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Ethical H2O}{2016}{}{}
+\item 
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Wind Turbine Construction}{2017}{}{}
+\item 
+\end{rWorkSubsection}\vspace{-0.5em}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Home Brew Smart House}{2019}{Pi-based household intranet}{}
+\item Conceptual
+\item Uses power over ethernet Raspberry Pi computers
+\item Monitors household environment and occupancy
+\item Controls HVAC and lighting systems
+\item Uses facial recognition and database management to provide appropriate ambience
+\item Motion detection and systems monitoring alerts owner of potentially critical changes
+\end{rWorkSubsection}\vspace{-0.5em}
+\fi
+
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -68,47 +213,74 @@
 
 \begin{rSection}{Education}
 
-{\bf Bucknell University} \hfill {\em June 2016 - May 2019} 
-\\ Bachelor of Arts \hfill { Overall GPA: 3.55/4}
-\\ Department of Computer Science 
-\\ College of Arts and Sciences
-\\ Minor in Philosophy \smallskip \\
-%Statistical Literacy for the 21st Century (A-); Psychology of Attraction and Relationships (A-); Caribbean Literature (A); Software Engineering and Design (A-); Intro Latin (B); Calculus III (C+); Computer Organization and Programming (B+); Life, Computers, and Everything (A); Discrete Structures (B+); Logic (A); Computer Science Design Project (B+); Operating System Design (B+); Algorithms (B+); Philosophy of Peace and Nonviolence (A); Cognitive Science (AU);Human-Computer Interaction (A-); Symbolic Logic (A); Philosophy of Society and Politics (B+); Consciousness, Self and Mind (A);Wireless System Design (AU).
+{\bf Bucknell University} {2016 - 2019} 
+\\ Bachelor of Arts, Computer Science  {\em GPA: 3.55 cum laude}
+\\ College of Arts and Sciences, Minor in Philosophy
+\begin{rSubSection}{}{
+   \itemsep -0.5em \vspace{-1.5em} % Compress items in list together for aesthetics
+ 
+    \item {Bucknell Student Government:} Class of 2019 Senator%; Advocacy Committee Member; Dining Committee Member; Student Advisory Group Member; Greek Relations Committee Member
+    \iffalse
+    \subitem Class Tribute Bucknell B 
+    \subitem Commemoration Speaker Madeleine Albright
+    \subitem 'Ray Response Training
+    \subitem 'Ray Resilience
+    \item {GSA:} Member
+    \item {C.A.L.V.I.N. \& H.O.B.B.E.S.:} Member; Student Driver
+    \fi
+    \item {Dragon:} Member; Dungeon Master
+    \iffalse
+    \item {ACE} 
+    \subitem Fall Fest 2018
+    \subitem 2017 Escape Room Event: Designed Technology Themed Room
+    \fi
+    }
+    
+  \end{rSubSection}
+Statistical Literacy for the 21st Century; Software Engineering and Design; Calculus III; Computer Organization and Programming; Life, Computers, and Everything; Discrete Structures; Computer Science Design Project; Operating System Design; Algorithms; Human-Computer Interaction; Symbolic Logic.
 
 
-{\bf Harrisburg Area Community College} \hfill {\em June 2014 - May 2017} 
-\\ Associate of Arts \hfill { Overall GPA: 3.96/4}
-\\ Department of Mathematics and Computer Science 
+{\bf Harrisburg Area Community College} {2014 - 2017} 
+\\ Associate of Arts, Mathematics and Computer Science {\em GPA: 3.96}
+\begin{rSubSection}{}{
+   \itemsep -0.5em \vspace{-1.5em} % Compress items in list together for aesthetics
+   
+    \item {HACC Student Government Association:} Legislative Chair; Senator; Ethics Committee Chair
+    \item {Phi Beta Lambda:} President
+    \item {Phi Theta Kappa:} Member}
+    
+  \end{rSubSection}
+Intro to Statistics; Trigonometry; Pre-Calculus; Java Programming; Calculus I; Intro to Computer Systems; Computer Science I; Object Oriented Programming; Calculus II; Computer Science II; Discrete Mathematics; Linear Algebra.
+
+\iffalse
+{\bf National Center for Construction Education and Research} {May 2013 - April 2014} 
+\\ Certificates in HVAC/R, Safety, and other construction fields {}
+\\ Reference \#: 11142092
 \smallskip \\
-%Modern Culture and the Arts (A); Intro to Statistics (A); English Composition (A); Trigonometry (A); Principles of Accounting I (A); Pre-Calculus (A); General Psychology (A); Principles of Accounting II (A); Effective Speaking (A);  Applied Calculus for Business (A); Principles of Marketing (A); General Biology I (A); Java Programming (A); Calculus I (A); Introduction to Sociology (A); Intro to Computer Systems (A); Computer Science I (A); Object Oriented Programming (B); Calculus II (A); Beginning Self-Defence (A); General Inorganic Chemistry I (A); Computer Science II (A); Discrete Mathematics (A); Linear Algebra (A).
+\item 
+Core Curricula; Basic Safety; Intro to Construction Math; Intro to Hand Tools; Intro to Power Tools; Intro to Construction Drawings; Basic Communication Skills; Basic Employability Skills; Intro to Material Handling; Intro to HVAC; Trade Mathematics; Copper and Plastic Piping Practices; Soldering and Brazing; Ferrous Metal Piping Practices; Basic Electricity; Intro to Cooling; Intro to Heating; Air Distribution Systems; Commercial Airside Systems; Chimneys, Vents, and Flues; Into to Hydronic Systems; Air Quality Equipment; Leak Detection, Evacuation, Recovery, and Charging; Alternating Current; Basic Electronics; Intro to Control Circuit Troubleshooting; Troubleshooting Gas Heating; Troubleshooting Cooling; Heat Pumps; Basic Installation and Maintenance Practices; Sheet Metal duct Systems; Fiberglass and Flexible Duct Systems; Intro to Photovoltaics; Site Assessment; System Design; System Installation and Inspection; Maintenance and Troubleshooting; Your Role in the Green Environment; 10 Hour Construction Site Safety Orientation; HVAC Level One; Solar Photovoltaics System Installer; Solar Photovoltaic; HVAC Level Two.
 
 
-%{\bf NCCER} \hfill {\em May 2013 - April 2014} 
-%\\ HVAC/R and Construction Training \hfill {}
-%\\ Reference \#: 11142092
-%\smallskip \\
-%Core Curricula; Basic Safety; Intro to Construction Math; Intro to Hand Tools; Intro to Power Tools; Intro to Construction Drawings; Basic Communication Skills; Basic Employability Skills; Intro to Material Handling; Intro to HVAC; Trade Mathematics; Copper and Plastic Piping Practices; Soldering and Brazing; Ferrous Metal Piping Practices; Basic Electricity; Intro to Cooling; Intro to Heating; Air Distribution Systems; Commercial Airside Systems; Chimneys, Vents, and Flues; Into to Hydronic Systems; Air Quality Equipment; Leak Detection, Evacuation, Recovery, and Charging; Alternating Current; Basic Electronics; Intro to Control Circuit Troubleshooting; Troubleshooting Gas Heating; Troubleshooting Cooling; Heat Pumps; Basic Installation and Maintenance Practices; Sheet Metal duct Systems; Fiberglass and Flexible Duct Systems; Intro to Photovoltaics; Site Assessment; System Design; System Installation and Inspection; Maintenance and Troubleshooting; Your Role in the Green Environment; 10 Hour Construction Site Safety Orientation; HVAC Level One; Solar Photovoltaics System Installer; Solar Photovoltaic; HVAC Level Two.
+{\bf Ferris State University} {August 2013} 
+\\ Geothermal for Home Certification {}
 
 
-%{\bf Ferris State University} \hfill {\em August 2013} 
-%\\ Geothermal for Home Certification \hfill {}
-
-
-%{\bf Ohio University} \hfill {\em June 2011 - August 2011} 
-%\\ Course Work \hfill { Overall GPA: 4/4}
-%\smallskip \\
-%College Algebra (A); Writing and Reading: Gender (A).
-
-{\bf PA Highlands Community College} \hfill {\em January 2009 - December 2009} 
-\\ Certificate of Office Technology \hfill { Overall GPA: 4/4}
+{\bf Ohio University} {June 2011 - August 2011} 
+\\ Course Work {\em GPA: 4}
 \smallskip \\
-Microsoft Excel (A); Microsoft Word (A); Microsoft ACCESS (A); Microsoft PowerPoint (A); Theory of Computing (A).
+College Algebra (A); Writing and Reading: Gender (A).
 
-%{\bf Pennsylvania Department of Education} \hfill {\em Various} 
-%\\ --Needs work. Are those two really the same department? Also, add grades to ged and detail to drafting.-- \hfill {}
-%\smallskip \\
-%GED; Drafting stuff
+{\bf Pennsylvania Highlands Community College} {January 2009 - December 2009} 
+\\ Certificate of Office Technology {\em GPA: 4}
+\\ Microsoft Office Suite
+\smallskip \\
+Microsoft Excel (A); Microsoft Word (A); Microsoft ACCESS (A); Microsoft PowerPoint (A); Theory of Computing (A)
 
+{\bf Pennsylvania Department of Education} {Various} 
+\\ --Needs work. Are those two really the same department? Also, add grades to ged and detail to drafting.-- {}
+\smallskip \\
+GED; Drafting stuff
+\fi
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -118,74 +290,125 @@ Microsoft Excel (A); Microsoft Word (A); Microsoft ACCESS (A); Microsoft PowerPo
 \begin{rSection}{Relevant Experience}
 
 %------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Nooch's Pub and Grill}{November 2019 - Present}{A Stinking Cook}{}
+\item Who the fuck cares?
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
 
-\begin{rSubsection}{Bucknell University}{June 2018 - Present}{Undergraduate Research}{}
-\item Employed SciKitLearn to construct machine learning classifiers used in analyzing effectiveness of epsilon-Differential Privacy data protections.
-\item Built custom application to extract and present experiment results across seven variables
-\item Presented research at Susquehanna Valley Summer Research Symposium
-\end{rSubsection}
+\begin{rWorkSubsection}{Private Family}{2019 - Present}{Fourth Grade Math and Computer Science Tutor}{}
+\item Provides intensive, one-on-one tutoring in math and computer science
+\item Utilizes Unity to create lesson plans and curricula tailored to student's needs  
+\item Blends foundational math practice with the introduction of mid and high level concepts to actively engage the children's minds and activate an interest-based approach to drilling and repetition
+%\item Dungeon Master
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Marissa Deihl, SP}{September 2018 - May 2019}{Software Developer}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{The Bayeux Group}{November 2014 - September 2017}{Owner/Manager}{}
-\item I founded this company to provide business services to hopeful entrepreneurs. Under my management, we directly handled the launch of two companies, and we have been involved with the managment of several others. I have personally been handled bookkeeping, administration, supply chain management, marketing, customer management, sales, strategic planning, and data analytics on behalf of our clients. The company was suspended in order for myself to return to school to further develop my critical problem solving skills and technological knowledge.
-\end{rSubsection}
-
-%------------------------------------------------
-
-%\begin{rSubsection}{Dan Kerstetter, Millwork}{November 2017 - May 2019}{Assistant Woodworker}{}
-%\item Works on software development team of one programmer (me) and one electrical engineer.
-%\item Primarily responsible for designing and implementing project goals in code.
-%\item Manages user testing and feedback in iterative design process.
-%\end{rSubsection}
+\begin{rWorkSubsection}{Bucknell University}{2018 - 2019}{Undergraduate Research}{}
+\item Employed SciKitLearn in Python environment to construct machine learning classifiers used in analyzing effectiveness of $\epsilon$-Differential Privacy data protections
+\item Engineered Python/NumPy application to extract and present experiment results across seven variables
+%\item Presented research at Susquehanna Valley Summer Research Symposium
+\item Ran artificial intelligence attacks using university Linux cluster against $\epsilon$-Differentially Private data
+\end{rWorkSubsection}
 
 %------------------------------------------------
 \iffalse
-\begin{rSubsection}{VSFS}{September 2018 - December 2018}{Software Developer}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
+\begin{rWorkSubsection}{Marissa Deihl, SP}{September 2018 - May 2019}{Software Developer}{}
+\item Primarily responsible for identifying project goals and realizing those goals in code
+\item Collaborated on team using agile and scrum methodologies to build Unity environment educational application
+\item Managed feedback in data driven iterative design and testing process, iterating project three times in seven months
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
+
+\begin{rWorkSubsection}{The Bayeux Group}{2014 - 2017}{Owner/Manager}{}
+\item Founded company to provide business services to new entrepreneurs
+%\item Managed company while overseeing launch of two companies and management of over ten others
+%\item Directed bookkeeping, scheduling, customer and supply chain management, traditional and e-marketing, cost control sales strategic planning, product development, risk management, and software and data analytics on behalf of clients
+\item Used Gimp, Facebook, and Google and Adobe Suites, created marketing campaigns to promote products and services in multiple industries
+\item Developed and implemented business reporting process to monitor project progress and delivery status
+%\item Hired, supervised, and trained new employees for multidisciplinary teams
+\end{rWorkSubsection}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Dan Kerstetter, Millwork}{November 2017 - May 2019}{Assistant Woodworker}{}
+\item Worked with master woodworker to build and restore custom cabinetry and furniture
+\item Used and maintained powered machinery in accordance with OSHA best practices
+\item Provided business and technology support to back office operations
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Appalachian Brewing Company}{April 2014 - August 2017}{Assistant to the Kitchen Manager}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
+\begin{rWorkSubsection}{Central AR Veterans Healthcare System}{September 2018 - December 2018}{Virtual Student Federal Service Intern}{}
+\item Worked on software development team to produce gamification simulation of VA hospital operations structure
+\item Collaborated exclusively through video conference technology in scrum structure
+\item Developed custom artificial intelligence solution for product using Unity tools
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Ethical H2O}{December 2015 - August 2017}{Senior Technician}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
+\begin{rWorkSubsection}{Appalachian Brewing Company}{April 2014 - August 2017}{Assistant to the Kitchen Manager/Head Dessert Chef}{}
+\item Managed and prepared pre-product materials to line cooks
+\item Held position of leadership and teamwork on line during high-output, mission critical periods demonstrating ability to work well under pressure
+\item Occupied maintenance and information technology oriented roles to restore production quickly and efficiently
+\item Scheduled employee shifts
+\item Ordered and received supply shipments from vendors
+\item Organized and stocked supplies to improve efficiency
+\item Cleaned and maintained kitchen to professional standards
+\item Developed and tested new recipes and designed dessert specials
+\item Trained new employees in line and prep roles, policies, and best practices
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Wilson Leather}{November 2014 - January 2015}{Sales Associate}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
+\begin{rWorkSubsection}{Ethical H2O}{December 2015 - August 2017}{Senior Technician}{}
+\item Managed company finances and bookkeeping using QuickBooks, Excel, Google Suite, and GnuCash
+\item Conducted sales calls and services to current and potential customers
+\item Serviced and installed broad range of water treatment and plumbing equipment and systems
+\item Performed scientific laboratory testing of samples for indicators of human health threats
+\item Wrote policy, hired and handled professional service providers, and maintained company records
+\item Hired and trained service technicians and administrative staff
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{SCIC}{January 2011 - March 2014}{Electrician's Assistant, Sanitation Technician}{}
-\item Works on software development team of one programmer (me) and one electrical engineer.
-\item Primarily responsible for designing and implementing project goals in code.
-\item Manages user testing and feedback in iterative design process.
-\end{rSubsection}
+\begin{rWorkSubsection}{Wilson Leather}{November 2014 - January 2015}{Sales Associate}{}
+\item Engaged with customers to determine needs and assist in finding product
+\item Handled credit, cash and check transactions in courteous and efficient manner
+\item Received, stocked, and arranged product according to specification
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{SCIC}{January 2011 - March 2014}{Electrician's Assistant, Environmental Technician, Dock Hand}{}
+\item Trained by master electrician with over 30 years experience
+\item Involved in team pull of high amperage, high voltage new electrical service
+\item Collaborated on complete rewire of fitness facility including rebuild of 5000+ sq. ft. lighting provision
+\item Engaged in troubleshooting and maintaining institutional and industrial systems and equipment
+\item Electrical service and control installation
+\item Operated front-end loader
+\item Assisted in rigging and lifting operations
+\item Removed and sorted institutional waste
+\item Received security clearance for restricted areas
+\item Operated pallet jacks loading and unloading shipments of supplies
+\item Stocked and maintained line food service during high output operation times
+\item Assisted with testing of new baked goods and experimented with new recipes
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Eisenhower Inn and Conference Center}{...}{Bellman}{}
+\item No one cares
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Round Top Campground}{...}{Cashier}{}
+\item No one cares
+\end{rWorkSubsection}
 \fi
 \end{rSection}
 
@@ -199,7 +422,7 @@ Microsoft Excel (A); Microsoft Word (A); Microsoft ACCESS (A); Microsoft PowerPo
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
 Computer Languages & C/C++, Java, Python, Visual Basic, C\# \\
-Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD \\
+Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD, Quickbooks, SPICE \\
 \end{tabular}
 
 \end{rSection}
@@ -211,54 +434,61 @@ Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD \\
 \begin{rSection}{Volunteer Experience}
 
 %------------------------------------------------
-
-%\begin{rSubsection}{HOPE Program}{}{Canine Behavioral Rehabilitation}{}
-%\item Dog Handler: Worked with professional dog trainer to train, care for, and rehabilitate unadoptable dogs, preparing them to be placed in permenant homes
-%\end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Spirit of Gettysburg 5k}{}{Charitable Footrace}{}
-\item Wheelchair Race Leader: Rode motorcycle to lead wheelchair section of race through course; entered unchecked traffic, preventing collision with racers
-\item Children's Race Leader: Rode bicycle to lead children's race through course
-\item Traffic Director: Directed vehicular and pedestrian traffic during pre-race period
-\item Score Collator: Received, ordered, and confirmed race results in real time to be used for awards and listings.
-\end{rSubsection}
+\iffalse
+\begin{rWorkSubsection}{Lucky Orphans Horse Rescue}{2019}{}{}
+\item Haven't started yet
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-%\begin{rSubsection}{Adams County Rescue Mission}{}{Homeless Shelter \& Recycling Facility}{}
-%\item Sorter: Helped sort and prepare recycling materials.
-%\end{rSubsection}
+\begin{rWorkSubsection}{Rail Trail}{2019}{}{}
+\item Haven't started yet
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{HACC Environmental Club}{}{Community College Environmental Organization}{}
-\item Rock Creek Cleanup: Traveled down local waterway removing trash and debris.
-\end{rSubsection}
+\begin{rWorkSubsection}{HOPE Program Canine Rehabilitation}{2013}{Dog Handler}{}
+\item Worked with professional dog trainer to train, care for, and rehabilitate unadoptable dogs, preparing them to be placed in permanent homes
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
+
+\begin{rVolunteerCondensed}{Spirit of Gettysburg 5k Charitable Footrace}{2015, 2014}{Route Leader, Traffic Control, Race Results}{}
+%\item Rode motorcycle to lead wheelchair section of race through course; entered unchecked traffic, preventing collision with racers
+%\item Rode bicycle to lead children's race through course
+%\item Directed vehicular and pedestrian traffic during pre-race period
+%\item Received, ordered, and confirmed race results in real time to be used for awards and listings.
+\end{rVolunteerCondensed}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Sinai Hospital, ER7}{}{Emergency Room Administrative Offices}{}
-\item Administrative Assistant's Assistant: Copied, filed, shredded and recorded hospital documents under the direction of staff; ran errends and delivered messeges throughout hospital
-\end{rSubsection}
+\begin{rVolunteerCondensed}{HACC Environmental Club}{2015}{River Cleanup Crew}{}
+%\item Traveled down local waterway removing trash and debris.
+\end{rVolunteerCondensed}
 
+%------------------------------------------------
+
+\begin{rVolunteerCondensed}{Adams County Rescue Mission}{2014}{Recycling Sorter}{}
+%\item Helped sort and prepare recycling materials.
+\end{rVolunteerCondensed}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Sinai Hospital, ER7}{1999}{Illegal Child Labor}{}
+\item Copied, filed, shredded and recorded hospital documents under the direction of staff; ran errands and delivered messages throughout hospital
+\end{rWorkSubsection}
+\fi
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	ASSOCIATIONS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Associations Achievements} \itemsep -2pt
-\item {\bf Bucknell Student Government} Class of 2019 Senator; Advocacy Committee Member; Dining Committee Member; Student Advisory Group Member; Greek Relations Committee Member
-\item {\bf HACC Student Government Association} Legislative Chair; Senator; Ethics Committee Chair
-\item {\bf Phi Beta Lambda} President
-%\item {\bf Phi Theta Kappa} Member
-%\item {\bf GSA} Member
-%\item {\bf C.A.L.V.I.N. \& H.O.B.B.E.S.} Member; Student Driver
-%\item {\bf Dragon} Member; DM
-%\item {\bf ACE} Fall Fest 2018; 2017 Escape Room Event: Designed Technology Themed Room
-%\item {\bf ACM}
+\begin{rSection}{Associations \& Projects} \itemsep -2pt \vspace{-1.0em}
+
+
+\item {\bf Association for Computing Machinery}
+\item {\bf Project Management Institute}
 
 
 \end{rSection}
@@ -267,18 +497,20 @@ Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD \\
 %	ACADEMIC ACHIEVEMENTS SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Academic Achievements} \itemsep -2pt
+\begin{rSection}{Academic Achievements} \itemsep -2pt \vspace{-1.0em}
 \item Bucknell Community College Scholars Program Scholarship
+\iffalse
 \item Graduated {\it cum laude} from Bucknell University
 \item {\bf Dean's List:} Spring 2019; Fall 2016; Spring 2016; Fall 2015; Academic Year 2015
-%\item Outstanding Freshman Math/Computer Science Student
-%\item Outstanding Sophomore Math/Computer Science Student
-%\item 2016 Bucknell Community College Scholars Program
-%\item SGA Senator of the Semester; Fall 2015
-%\item First in Who's Who; Phi Beta Lambda 2016(?) Conference
-%\item Second in Strategic Analysis and Decision Making; Phi Beta Lambda 2016(?) Conference
-%\item Third in Project Management; Phi Beta Lambda 2016(?) Conference
-%\item {\bf Benchmark of Excellence:} Electrical; Heat Pump; Certified Carbon Monoxide Inspector; Combustion Analysis; HVACR Electrical Plumbing; Basic Refrigeration and Charging Procedures; System Diagnostic and Troubleshooting Procedures
+\item Outstanding Freshman Math/Computer Science Student
+\item Outstanding Sophomore Math/Computer Science Student
+\item 2016 Bucknell Community College Scholars Program
+\item SGA Senator of the Semester; Fall 2015
+\fi
+\item First in Who's Who; Phi Beta Lambda 2016(?) Conference
+\item Second in Strategic Analysis and Decision Making; Phi Beta Lambda 2016(?) Conference
+\item Third in Project Management; Phi Beta Lambda 2016(?) Conference
+\item {\bf Benchmark of Excellence:} Electrical; Heat Pump; Certified Carbon Monoxide Inspector; Combustion Analysis; HVACR Electrical Plumbing; Basic Refrigeration and Charging Procedures; System Diagnostic and Troubleshooting Procedures
 
 
 \end{rSection}
@@ -286,24 +518,24 @@ Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD \\
 %----------------------------------------------------------------------------------------
 %	LICENSES AND CERTIFICATIONS SECTION
 %----------------------------------------------------------------------------------------
+\iffalse
+\begin{rSection}{Licenses and Certifications} \itemsep -2pt
+\item EPA Universal Refrigerant
+\item OSHA 10-hour
 
-%\begin{rSection}{Licenses and Certifications} \itemsep -2pt
-%\item EPA Universal Refrigerant
-%\item OSHA 10-hour
-
-%\end{rSection}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS AND PRESENTATIONS SECTION
 %----------------------------------------------------------------------------------------
 
-%\begin{rSection}{Publications and Presentations} \itemsep -2pt
-%\item Susquehanna Valley Summer Research Symposium Poster
-%\item (Circuit Game)
-%\item (DP Experiment)
+\begin{rSection}{Publications and Presentations} \itemsep -2pt
+\item Susquehanna Valley Summer Research Symposium Poster
+\item (Circuit Game)
+\item (DP Experiment)
 
-%\end{rSection}
-
+\end{rSection}
+\fi
 %----------------------------------------------------------------------------------------
 \iffalse
 \begin{rSection}{Relevant Courses}
@@ -330,34 +562,31 @@ Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD \\
 
 %------------------------------------------------
 
-\begin{rSubsection}{Students' Placement Office}{April 2015 - Present}{Internship Coordinator}{IIT Kanpur}
+\begin{rWorkSubsection}{Students' Placement Office}{April 2015 - Present}{Internship Coordinator}{IIT Kanpur}
 \item Coordinating with team of 20 students responsible for facilitating internship proceedings of 650 students involving 150 companies
  \item Responsible for developing contacts with corporate recruitment teams of several firms for internship and placements 
  \item Organized sessions on Personality Development and Career Awareness by esteemed alumni for over 1600 students
-\end{rSubsection}
+\end{rWorkSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Hall Executive Committee }{April 2014 - Nov 2014}{Secretary}{IIT Kanpur}
+\begin{rWorkSubsection}{Hall Executive Committee }{April 2014 - Nov 2014}{Secretary}{IIT Kanpur}
 \item Coordinated with 12 members to led a team of 200 students in inter hall technical, cultural and sports competition of institute 
 \item Planned an annual budget of ₹ 2 lakhs for proper functioning of hostel with more than 400 residents
-\end{rSubsection}
+\end{rWorkSubsection}
 
 \end{rSection}
 \fi
 %----------------------------------------------------------------------------------------
 %Hobbies Section
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Interests} \itemsep -3pt
-\item Ballroom Dance; Piano; Violin; Guitar; Architecture; Horticulture; Chemistry; Cybernetics; Electronics; Video Games; Legos
+\begin{rSection}{Interests and Athletics} \itemsep -3pt \vspace{-1.0em}
+\item Ballroom Dance; Piano; Violin; Guitar; Architecture; Horticulture; Chemistry; Cybernetics; Electronics; Video Games; Legos; Running; Obstacle Courses; Climbing; Combat Sports; Rappelling; One Punch Workout; Cycling
 
 \end{rSection}
-%----------------------------------------------------------------------------------------
-%Athletics Section
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Athletics} \itemsep -3pt
-\item Running; Obstacle Courses; Climbing; Combat Sports; Rappelling; One Punch Workout; Cycling
 
-\end{rSection}
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=south,yshift=10pt] at (current page.south) {\parbox{\dimexpr\textwidth-\fboxsep-\fboxrule\relax}{\footnotesize \center{Resum\'{e} compiled using \LaTeX}}};
+\end{tikzpicture}%
 
 \end{document}
