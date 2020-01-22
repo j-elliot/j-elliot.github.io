@@ -1,0 +1,568 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{tikz}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{J. Elliot Miller} % Your name
+\address{741 Chapel Road \\ Gettysburg, Pennsylvania 17325-8706} % Your address
+\address{18 Nelson Hill \\ Wassaic, New York 12592} % Your secondary addess (optional)
+\address{717-398-1540 \\ elliot@alum.bucknell.edu \\ j-elliot@github.io} % Your phone number and email
+
+\begin{document}
+\iffalse
+%----------------------------------------------------------------------------------------
+%	HEADLINE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Headline}
+
+Bucknell 2019 Computer Science graduate seeking... stuff. \\
+
+\end{rSection}
+
+\begin{rSection}{Headline}
+
+Elliot: International Man of Technology \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	BIO SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Bio}
+
+A \textit{cum laude} computer science graduate of Bucknell University, has been involved with the launch and operations of several small businesses. Co-authored a paper on the gamification of electronics education and is currently working on a second paper on $\epsilon$-Differential Privacy protections against adversarial knowledge assumptions; exploring how to exploit the rich world of late ‘80s video games. \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	GOAL SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Career Goals}
+
+Concrete - ``To explore the the ways AI can improve educational access and further engagement among underserved communities using my unique combination of educational theory, psychology, and computer science skillset.'' \\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ELEVATOR PITCH SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Elevator Pitch}
+
+Elliot combines a broad array of skills and experiences from across disciplines, collar colors, and industries to be a leader who can understand and communicate with people from any position or background, and a worker who can fill almost any professional role and occupy any company space. \\
+
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & C/C++, Java, Python, Visual Basic, C\# \\
+Software \& Tools & Unity, LaTeX, Git, Gimp, Microsoft Office Suit, AutoCAD, Quickbooks, SPICE \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECT SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Categorical Logic Solver}{2017}{Program for determining the validity of categorical syllogisms according to Aristotle and Boole}{}
+\item Written in C
+\item Explores the close relationship of logic as a philosophical discipline with rudimentary gate functions
+\item Converts logic problem space to binary dimensions solved with nested looping algorithm
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Super Chess}{2009}{Game platform for parsing strategic thinking from rule learning}{}
+\item Written in Visual Basic and AutoCAD
+\item A multivariate chess-like board game developed to explore the divorce of strategy from experience
+\item Uses plethora of user and randomly chosen game rule variables to build continually unique game play
+\item Coded in Visual Basic using AutoCAD scripting and modelling as {\em ad hoc} graphics engine
+\item Future work will rewrite game for a new platform
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{World of Hellos}{2019 \& ongoing}{Exploration of common and esoteric languages}{}
+\item Written in Python, Python 3, Ruby, Java, C, C++, Fortran, Fortran90, R, Lisp, JavaScript, \& C\#
+\item Uses file management, recipe parsing, and command line calls to compile and run Hello World in any given language
+\item Accepts output of programs it runs to confirm proper execution
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Project Management Backend}{2019 \& ongoing}{Versatile task management backend}{}
+\item Written in C++
+\item Uses C-language pointers to structure task dependency and link ancillary information to appropriate parents
+\item Explores integration of common database tools with linked list programmatic representation
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Math Generator}{2019}{Mathematics practice problem generator}{}
+\item Written in C++
+\item Uses basic computer arithmetic to generate problems and solutions as a teacher's aide
+\item Future work will implement a learning model of Advanced Exposure to embed simple tasks in a context of an advanced problem
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{j-elliot.github.io}{2019}{Personal Website}{}
+\item Written in HTML and CSS
+\item Showcases projects and Curiculum Vitea information as well as personal philosophy
+\item Includes a sexy calendar
+\end{rWorkSubsection}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Curiculum Vitea}{2017 \& ongoing}{This resum\'{e} that you're reading right now!}{}
+\item Written in \LaTeX
+\item Uses custom .cls file to streamline parsing of broad CV into job-specific resum\'{e}s
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
+
+\begin{rWorkSubsection}{The Borden House}{2019 \& ongoing}{Restoration of a local architectural icon}{}
+\item Consulting contractor in the restoration and refurbishment of a nineteenth century Victorian ch\^{a}teau
+\item Oversees electrical and plumbing systems maintenance and development
+\item Assists in steampunk aesthetic design realization
+\item Drafted whole house floor plans in AutoCAD along with grounds layout
+\end{rWorkSubsection}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{VR Dragon Riding Simulator}{2019}{Phone-based virtual reality dragon riding}{}
+\item Programmed in C\# and Unity
+\item Uses Google cardboard with motion controls to navigate environment in three dimensions 
+\item Implements button input to trigger custom attack animations on stock sprites
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Overwatch Gesture}{2019}{Leap motion gesture control for Overwatch}{}
+\item Programmed in Java
+\item Intuitively maps Leap Motion-defined hand gestures to game inputs
+\end{rWorkSubsection}
+\fi
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Circuit Theory Game}{2018}{Developed game to intuitively teach circuit theory}{}
+\item Programmed in C\#, Unity, Bash, and SPICE
+\item Eschews numbers and text in favor of immediate visual feedback of circuit activity
+\item Represents visual circuit graphs as connection matrices
+\item Converts matrix representation to text file for input to SPICE
+\item Parses SPICE output into matrix and visual representation using the Edmunds-Karp algorithm
+\end{rWorkSubsection}
+
+%------------------------------------------------
+\iffalse
+\begin{rWorkSubsection}{Gettysburg Soccer Academy}{2014}{}{}
+\item 
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Ethical H2O}{2016}{}{}
+\item 
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Wind Turbine Construction}{2017}{}{}
+\item 
+\end{rWorkSubsection}
+\fi
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bucknell University} {June 2016 - May 2019} 
+\\ Bachelor of Arts, Computer Science  {\em GPA: 3.55 cum laude}
+\\ College of Arts and Sciences, Minor in Philosophy 
+\begin{rSubSection}{}{
+   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+ 
+    \item {Bucknell Student Government:} Class of 2019 Senator
+    \subitem Class Tribute Bucknell B 
+    \subitem 'Ray Response Training
+    \subitem 2017 Escape Room Event: Designed Technology Themed Room}
+    
+  \end{rSubSection}
+\iffalse
+
+{\bf Harrisburg Area Community College} {June 2014 - May 2017} 
+\\ Associate of Arts, Mathematics and Computer Science {\em GPA: 3.96}
+\begin{rSubSection}{}{
+   \itemsep -0.5em \vspace{-0.5em} % Compress items in list together for aesthetics
+   
+    \item {HACC Student Government Association:} Legislative Chair; Senator; Ethics Committee Chair
+    \item {Phi Beta Lambda:} President
+    \item {Phi Theta Kappa:} Member}
+    
+  \end{rSubSection}
+Modern Culture and the Arts (A); Intro to Statistics (A); English Composition (A); Trigonometry (A); Principles of Accounting I (A); Pre-Calculus (A); General Psychology (A); Principles of Accounting II (A); Effective Speaking (A);  Applied Calculus for Business (A); Principles of Marketing (A); General Biology I (A); Java Programming (A); Calculus I (A); Introduction to Sociology (A); Intro to Computer Systems (A); Computer Science I (A); Object Oriented Programming (B); Calculus II (A); Beginning Self-Defence (A); General Inorganic Chemistry I (A); Computer Science II (A); Discrete Mathematics (A); Linear Algebra (A).
+\fi
+
+{\bf National Center for Construction Education and Research} {May 2013 - April 2014} 
+\\ Specialized training in: 
+\begin{rSubSection}{}{
+    \item HVAC/R, Renewable Energy Installation, Safety, Electrical, Ductwork  {}
+\item Full Course List Available at: www.nccer.com, Reference \#: 11142092}
+\end{rSubSection}
+\smallskip \\
+\item 
+
+
+{\bf Ferris State University} {August 2013} 
+\\ Geothermal for Home Certification {}
+
+
+{\bf Ohio University} {June 2011 - August 2011} 
+\\ Course Work {\em GPA: 4}
+\smallskip \\
+College Algebra (A); Writing and Reading: Gender (A).
+
+{\bf Pennsylvania Highlands Community College} {January 2009 - December 2009} 
+\\ Certificate of Office Technology {\em GPA: 4}
+\\ Microsoft Office Suite
+\smallskip \\
+Microsoft Excel (A); Microsoft Word (A); Microsoft ACCESS (A); Microsoft PowerPoint (A); Theory of Computing (A)
+
+{\bf Pennsylvania Department of Education} {Various} 
+\\ --Needs work. Are those two really the same department? Also, add grades to ged and detail to drafting.-- {}
+\smallskip \\
+GED; Drafting stuff
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Experience}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Nooch's Pub and Grill}{November 2019 - Present}{A Stinking Cook}{}
+\item Who the fuck cares?
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Private Family}{October 2019 - Present}{Fourth Grade Math and Computer Science Tutor}{}
+\item Provides intensive, one-on-one tutoring in math and computer science
+\item Utilizes Unity to create lesson plans and curricula tailored to student's needs  
+\item Blends foundational math practice with the introduction of mid and high level concepts to actively engage the children's minds and activate an interest-based approach to drilling and repetition
+\item Dungeon Master
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Bucknell University}{June 2018 - August 2019}{Undergraduate Research}{}
+\item Employed SciKitLearn in Python environment to construct machine learning classifiers used in analyzing effectiveness of $\epsilon$-Differential Privacy data protections
+\item Engineered custom Python/NumPy application to extract and present experiment results across seven variables
+\item Presented research at Susquehanna Valley Summer Research Symposium
+\item Ran artificial intelligence attacks using university Linux cluster against $\epsilon$-Differentially Private data
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Marissa Deihl, SP}{September 2018 - May 2019}{Software Developer}{}
+\item Primarily responsible for identifying project goals and realizing those goals in code
+\item Collaborated on team using agile and scrum methodologies to build Unity environment educational application
+\item Managed feedback in data driven iterative design and testing process, iterating project three times in seven months
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{The Bayeux Group}{November 2014 - September 2017}{Owner/Manager}{}
+\item Founded company to provide business services to new entrepreneurs
+\item Managed company while overseeing launch of two companies and management of over ten others
+\item Directed bookkeeping, scheduling, customer and supply chain management, traditional and e-marketing, cost control sales strategic planning, product development, risk management, and software and data analytics on behalf of clients
+\item Using Gimp, Facebook, and Google and Adobe Suites, created marketing campaigns to promote products and services in multiple industries
+\item Developed and implemented business reporting process to monitor project progress and delivery status
+\item Hired, supervised, and trained new employees for multidisciplinary teams
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Dan Kerstetter, Millwork}{November 2017 - May 2019}{Assistant Woodworker}{}
+\item Worked with master woodworker to build and restore custom cabinetry and furniture
+\item Used and maintained powered machinery in accordance with OSHA best practices
+\item Provided business and technology support to back office operations
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{VSFS}{September 2018 - December 2018}{Software Developer}{}
+\item Worked on software development team to produce gamification simulation of VA hospital operations structure
+\item Collaborated exclusively through video conference technology in scrum structure
+\item Developed custom artificial intelligence solution for product using Unity tools
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Appalachian Brewing Company}{April 2014 - August 2017}{Assistant to the Kitchen Manager/Head Dessert Chef}{}
+\item Managed and prepared pre-product materials to line cooks
+\item Held position of leadership and teamwork on line during high-output, mission critical periods demonstrating ability to work well under pressure
+\item Occupied maintenance and information technology oriented roles to restore production quickly and efficiently
+\item Scheduled employee shifts
+\item Ordered and received supply shipments from vendors
+\item Organized and stocked supplies to improve efficiency
+\item Cleaned and maintained kitchen to professional standards
+\item Developed and tested new recipes and designed dessert specials
+\item Trained new employees in line and prep roles, policies, and best practices
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Ethical H2O}{December 2015 - August 2017}{Senior Technician}{}
+\item Managed company finances and bookkeeping using QuickBooks, Excel, Google Suite, and GnuCash
+\item Conducted sales calls and services to current and potential customers
+\item Serviced and installed broad range of water treatment and plumbing equipment and systems
+\item Performed scientific laboratory testing of samples for indicators of human health threats
+\item Wrote policy, hired and handled professional service providers, and maintained company records
+\item Hired and trained service technicians and administrative staff
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Wilson Leather}{November 2014 - January 2015}{Sales Associate}{}
+\item Engaged with customers to determine needs and assist in finding product
+\item Handled credit, cash and check transactions in courteous and efficient manner
+\item Received, stocked, and arranged product according to specification
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{SCIC}{January 2011 - March 2014}{Electrician's Assistant, Environmental Technician, Dock Hand}{}
+\item Trained by master electrician with over 30 years experience
+\item Involved in team pull of high amperage, high voltage new electrical service
+\item Collaborated on complete rewire of fitness facility including rebuild of 5000+ sq. ft. lighting provision
+\item Engaged in troubleshooting and maintaining institutional and industrial systems and equipment
+\item Electrical service and control installation
+\item Operated front-end loader
+\item Assisted in rigging and lifting operations
+\item Removed and sorted institutional waste
+\item Received security clearance for restricted areas
+\item Operated pallet jacks loading and unloading shipments of supplies
+\item Stocked and maintained line food service during high output operation times
+\item Assisted with testing of new baked goods and experimented with new recipes
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Eisenhower Inn and Conference Center}{...}{Bellman}{}
+\item No one cares
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Round Top Campground}{...}{Cashier}{}
+\item No one cares
+\end{rWorkSubsection}
+
+\end{rSection}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Volunteer Experience}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Lucky Orphans Horse Rescue}{2019}{}{}
+\item Haven't started yet
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Rail Trail}{2019}{}{}
+\item Haven't started yet
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{HOPE Program Canine Rehabilitation}{2013}{Dog Handler}{}
+\item Worked with professional dog trainer to train, care for, and rehabilitate unadoptable dogs, preparing them to be placed in permanent homes
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Spirit of Gettysburg 5k Charitable Footrace}{2014, 2015}{Volunteer Leader, Traffic Control, Race Results}{}
+\item Rode motorcycle to lead wheelchair section of race through course; entered unchecked traffic, preventing collision with racers
+\item Rode bicycle to lead children's race through course
+\item Directed vehicular and pedestrian traffic during pre-race period
+\item Received, ordered, and confirmed race results in real time to be used for awards and listings.
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Adams County Rescue Mission}{2014}{Recycling Sorter}{}
+\item Helped sort and prepare recycling materials.
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{HACC Environmental Club}{2015}{River Cleanup Crew}{}
+\item Traveled down local waterway removing trash and debris.
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Sinai Hospital, ER7}{1999}{Illegal Child Labor}{}
+\item Copied, filed, shredded and recorded hospital documents under the direction of staff; ran errands and delivered messages throughout hospital
+\end{rWorkSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ASSOCIATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Associations \& Projects} \itemsep -2pt
+
+
+\item {\bf Association for Computing Machinery}
+\item {\bf Project Management Institute}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	ACADEMIC ACHIEVEMENTS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Academic Achievements} \itemsep -2pt
+\item Bucknell Community College Scholars Program Scholarship
+\item Graduated {\it cum laude} from Bucknell University
+\item {\bf Dean's List:} Spring 2019; Fall 2016; Spring 2016; Fall 2015; Academic Year 2015
+\item Outstanding Freshman Math/Computer Science Student
+\item Outstanding Sophomore Math/Computer Science Student
+\item 2016 Bucknell Community College Scholars Program
+\item SGA Senator of the Semester; Fall 2015
+\item First in Who's Who; Phi Beta Lambda 2016(?) Conference
+\item Second in Strategic Analysis and Decision Making; Phi Beta Lambda 2016(?) Conference
+\item Third in Project Management; Phi Beta Lambda 2016(?) Conference
+\item {\bf Benchmark of Excellence:} Electrical; Heat Pump; Certified Carbon Monoxide Inspector; Combustion Analysis; HVACR Electrical Plumbing; Basic Refrigeration and Charging Procedures; System Diagnostic and Troubleshooting Procedures
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LICENSES AND CERTIFICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Licenses and Certifications} \itemsep -2pt
+\item EPA Universal Refrigerant
+\item OSHA 10-hour
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS AND PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Publications and Presentations} \itemsep -2pt
+\item Susquehanna Valley Summer Research Symposium Poster
+\item (Circuit Game)
+\item (DP Experiment)
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\iffalse
+\begin{rSection}{Relevant Courses}
+\itab{\textbf{Core Courses}} \tab{}  \tab{\textbf{Other Courses}}
+\\ \itab{Discrete Structures} \tab{}  \tab{Computer Organization \& Programming}
+\\ \itab{Calculus III} \tab{}  \tab{Operating Systems} 
+\\ \itab{Algorithms} \tab{}  \tab{Logic} 
+\\ \itab{Life, Computers \& Everything} \tab{} \tab{Linear Algebra}
+\\ \itab{Software Engineering and Design} \tab{} \tab{Cognitive Science (Audit)}
+% \\ \itab{Process Control (ongoing)} \tab{} \tab{Electrodynamics}
+
+\end{rSection}
+\fi
+
+\iffalse
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Techkriti 2015 - Technical and entrepreneurial Festival }{August 2014 - March 2015}{Public Relations}{IIT Kanpur}
+\item Spearheaded a 2-tier team of 40 people to successfully conduct professional shows, exhibitions and talks
+\item Organized talks in Techkriti by eminent personalities like Dr K. Radhakrishnan (Chairman, ISRO), Peter Schultz (Co-inventor, Fibre optics) and David Hilmers (NASA Astronaut) with more than 1000 attendees
+\item Successfully organized Auto expo, Space expo and Defence expo together for the first time in Techkriti
+\item Promoted awareness through social campaigns like Make a wish, Adopt a tree and Teen Suicide Prevention
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Students' Placement Office}{April 2015 - Present}{Internship Coordinator}{IIT Kanpur}
+\item Coordinating with team of 20 students responsible for facilitating internship proceedings of 650 students involving 150 companies
+ \item Responsible for developing contacts with corporate recruitment teams of several firms for internship and placements 
+ \item Organized sessions on Personality Development and Career Awareness by esteemed alumni for over 1600 students
+\end{rWorkSubsection}
+
+%------------------------------------------------
+
+\begin{rWorkSubsection}{Hall Executive Committee }{April 2014 - Nov 2014}{Secretary}{IIT Kanpur}
+\item Coordinated with 12 members to led a team of 200 students in inter hall technical, cultural and sports competition of institute 
+\item Planned an annual budget of ₹ 2 lakhs for proper functioning of hostel with more than 400 residents
+\end{rWorkSubsection}
+
+\end{rSection}
+\fi
+%----------------------------------------------------------------------------------------
+%Hobbies Section
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Interests and Athletics} \itemsep -3pt
+\item Ballroom Dance; Piano; Violin; Guitar; Architecture; Horticulture; Chemistry; Cybernetics; Electronics; Video Games; Legos; Running; Obstacle Courses; Climbing; Combat Sports; Rappelling; One Punch Workout; Cycling
+
+\end{rSection}
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=south,yshift=10pt] at (current page.south) {\parbox{\dimexpr\textwidth-\fboxsep-\fboxrule\relax}{\footnotesize \center{Resum\'{e} compiled using \LaTeX}}};
+\end{tikzpicture}%
+
+\end{document}
