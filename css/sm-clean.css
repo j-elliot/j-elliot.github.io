@@ -21,6 +21,21 @@
 .sm-clean a.disabled {
     color: #bbbbbb;
 }
+.sm-clean customa, .sm-clean customa:hover, .sm-clean customa:focus, .sm-clean customa:active {
+    padding: 13px 20px;
+    /* make room for the toggle button (sub indicator) */
+    padding-right: 58px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 17px;
+    text-decoration: none;
+}
+.sm-clean customa.current {
+    color: #d23600;
+}
+.sm-clean customa.disabled {
+    color: #bbbbbb;
+}
 .sm-clean a span.sub-arrow {
     position: absolute;
     top: 50%;
