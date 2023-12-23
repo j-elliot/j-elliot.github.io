@@ -1,0 +1,3282 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sullivan Business Report
+% LaTeX Template
+% Version 1.0 (May 5, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	CLASS, PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	letterpaper, % Paper size, use either a4paper or letterpaper
+	12pt, % Default font size, the template is designed to look good at 12pt so it's best not to change this
+	%unnumberedsections, % Uncomment for no section numbering
+]{CSSullivanBusinessReport}
+
+\addbibresource{sample.bib} % BibLaTeX bibliography file
+
+%----------------------------------------------------------------------------------------
+%	REPORT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\reporttitle{Job Hunt} % The report title to appear on the title page and page headers, do not create manual new lines here as this will carry over to page headers
+
+\reportsubtitle{I want real money for once in my life} % Report subtitle, include new lines if needed
+
+\reportauthors{by:\\\smallskip Elliot (elliot@alum.bucknell.edu)} % Report authors/group/department, include new lines if needed
+
+\reportdate{\today} % Report date, include new lines for additional information if needed
+
+\rightheadercontent{\includegraphics[width=1cm]{Spekkio1.png}} % The content in the right header, you may want to add your own company logo or use your company/department name or leave this command empty for no right header content
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{empty} % Suppress headers and footers on this page
+
+\begin{fullwidth} % Use the whole page width
+	\vspace*{-0.075\textheight} % Pull logo into the top margin
+	
+	\hfill\includegraphics[width=5cm]{Spekkio1.png} % Company logo
+
+	\vspace{0.15\textheight} % Vertical whitespace
+
+	\parbox{0.9\fulltextwidth}{\fontsize{50pt}{52pt}\selectfont\raggedright\textbf{\reporttitle}\par} % Report title, intentionally at less than full width for nice wrapping. Adjust the width of the \parbox and the font size as needed for your title to look good.
+	
+	\vspace{0.03\textheight} % Vertical whitespace
+	
+	{\LARGE\textit{\textbf{\reportsubtitle}}\par} % Subtitle
+	
+	\vfill % Vertical whitespace
+	
+	{\Large\reportauthors\par} % Report authors, group or department
+	
+	\vfill\vfill\vfill % Vertical whitespace
+	
+	{\large\reportdate\par} % Report date
+\end{fullwidth}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	DISCLAIMER/COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\thispagestyle{empty} % Suppress headers and footers on this page
+
+\begin{twothirdswidth} % Content in this environment to be at two-thirds of the whole page width
+	\footnotesize % Reduce font size
+	
+	\subsection*{Disclaimer}
+
+	If I succeed, I may get to not be in debt for once.
+	
+	\subsection*{Copyright}
+	
+	\textcopyright~2023 J. Elliot Miller 
+	
+	All rights reserved
+	
+	\subsection*{Contact}
+	
+	Gettysburg, PA\\
+	Wassaic, NY
+	
+	717.398.1540
+	
+	Contact: elliot@alum.bucknell.edu
+	
+	\vfill % Push the following down to the bottom of the page
+	
+	\subsubsection*{Changelog}
+	
+	\scriptsize % Reduce font size further
+	
+	\begin{tabular}{@{} L{0.05\linewidth} L{0.15\linewidth} L{0.6\linewidth} @{}} % Column widths specified here, change as needed for your content
+		\toprule
+		v1.0 & 2023-12-01 & Created document\\
+		\bottomrule
+	\end{tabular}
+\end{twothirdswidth}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{twothirdswidth} % Content in this environment to be at two-thirds of the whole page width
+	\tableofcontents % Output the table of contents, automatically generated from the section commands used in the document
+\end{twothirdswidth}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	SECTIONS
+%----------------------------------------------------------------------------------------
+
+\section{Introduction} % Top level section
+
+I need a job. I'm out of money. I have a background that should be able to get me something decently paying, assuming I'm not already too old to sell my rather patchy experience level. I'm creating this document because I need some structure to my efforts, and I'm really not sure how to go about that. At least I can attempt to journal my efforts and ideally move toward some system of directing and tracking them. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[1 Dec: LinkedIn]{Some Lame LinkedIn Jobs -- 2023-12-01} % Top level section
+
+This is not the first I've done one LinkedIn, but it is the first I've done since creating this document. 
+
+\subsection[Trustech]{Trustech: Junior Data Engineer}
+
+\begin{quote}
+About the job
+
+Join Our Team as a Junior Data Engineer!
+
+Are you passionate about transforming raw data into valuable insights? We are seeking a Junior Data Engineer to join our dynamic team and contribute to our data-driven initiatives. This is an exciting opportunity to grow your career in a supportive environment while making a significant impact.
+\end{quote}
+
+LinkedIn sent this in an email, and I saw junior and data so I did the quick apply. Seeing now the words Utah and IT on the listing, I'm much less interested. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[2 Dec: LinkedIn]{Some More Lame LinkedIn Jobs -- 2023-12-02} % Top level section
+
+More LinkedIn. 
+
+Thinking about job hunting: LinkedIn is bullshit. It's just something to do. It is the job hunting demo. The most basic thing I can do is what I'm doing, which is easy apply on LinkedIn. One by one I need to begin adding additional strategies. Tailoring resume to types of jobs. Tailoring resume to specific jobs. Writing cover letters. Implementing public AI tools. Seeking well fitting jobs. Using tools besides LinkedIn. Researching specific jobs and employers. Utilizing my network. Developing my network more. Of course continuing my educational development, though that is more outside the scope of this document. 
+
+I do need to pick up the pace though. I'm really backed into a corner here, and come up with a more concrete plan. The LinkedIn easy apply really is zero effort, so maybe I just increase the number of those I do each day, while also planning out further efforts. Perhaps I start reading articles and see what there is to see there. 
+
+\subsection[Cygnus Professionals Inc.]{Cygnus Professionals Inc.: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+
+	Job Description:
+	
+	Role:
+	
+	Design and implement machine learning solutions for customer use cases, leveraging core Google products including TensorFlow, DataFlow, and Vertex AI
+	Work with customers to identify opportunities to apply machine learning in their business, deploy solutions and deliver workshops to educate and empower customers .
+	Work closely with Product Management and Product Engineering to build and constantly drive excellence in our products.
+	Support customer implementation of Google Cloud products through: architecture guidance,best practices, data migration, capacity planning, implementation, troubleshooting, monitoring, and much more. 
+\end{quote}
+
+I'm not really qualified for this one. Just another quick one to keep it moving. 
+
+\textbf{Update (2023-12-05):} Application rejected by email.
+
+\subsection[Raas Infotek]{Raas Infotek: AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	Role:
+	
+	Design and implement machine learning solutions for customer use cases, leveraging core Google products including TensorFlow, DataFlow, and Vertex AI
+	Work with customers to identify opportunities to apply machine learning in their business, deploy solutions and deliver workshops to educate and empower customers .
+	Work closely with Product Management and Product Engineering to build and constantly drive excellence in our products.
+	Support customer implementation of Google Cloud products through: architecture guidance,best practices, data migration, capacity planning, implementation, troubleshooting, monitoring, and much more. 
+\end{quote}
+
+This one actually looks appealing. 
+
+\subsection[CareerKarma]{CareerKarma: Daily Reading \autocite{careerkarmaCodingSteps}}
+
+\href{https://careerkarma.com/blog/how-to-get-a-job-in-coding}{This article} is pretty basic, but it does mention coding certifications, which are worth looking at. Specifically, it suggests: 
+
+\begin{itemize}
+	\item \href{https://spark.adobe.com/page/07VQBSuNDWMR4/}{Adobe Certified Professional – Adobe Workfront Core Developer}
+	\item \href{https://aws.amazon.com/certification/certified-developer-associate/}{AWS Certified Developer – Associate}
+	\item \href{https://education.oracle.com/oracle-cloud-platform-digital-assistant-2022-certified-professional/trackp_OCPDA2022CP}{Oracle Cloud Platform Digital Assistant 2022 Certified Professional}
+\end{itemize}
+
+The article also suggests having a portfolio of coding projects, getting one's code reviewed by other programmers, do pair programming with an expert, compete in coding challenges and start with freelancing. also netowrking, researching the company, prep for the technical interview, keep learning. resume should include languages, analytical thinking, and patience. Find jobs on github, itjobpro, dice, toptal, and upwork. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[3 Dec: Structuring]{Adding Some Structure to my Plan -- 2023-12-03} % Top level section
+
+I'm really struggling with this and I don't know why. 
+
+I'm on LinkedIn now. I want to add some other job boards to that. GitHub, ITJobPro, Toptal, Dice, Upwork.
+
+Mentioning upwork, freelancing is something to try to make progress with.
+
+Developing resume means working on the actual thing, as well as learning JS and then react to build an online resume which will then develop into a portfolio. 
+
+I need to learn Data Science. 
+
+I need to network. 
+
+I need to stop being high because someone gave me an edible last night and I'm still fubar. 
+
+\subsection[Insight Global]{Insight Global: Data Visualization Engineer}
+
+\begin{quote}
+	About the job
+	
+	Our client, a global leader in the fintech space, is seeking a Python Developer to join their team. In this role, you'll be working on a mission critical team that's building enterprise solutions for identity protection, fraud prevention and/or financial crimes.
+\end{quote}
+
+I'm sure my record will exclude me on this one. 
+
+\textbf{Update (2023-12-04):} Application rejected by email.
+
+\subsection[Agile Resources, Inc.]{Agile Resources, Inc.: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	A mid size pharmaceutical client is seeking a REMOTE Data Visualization Engineer in Research Technology to advance biomedical research. They will be capable of engineering innovative digital experiences that enable users to work directly with data supporting scientific research and data-driven decision making. This is a one-of-a-kind role, so we're looking for someone who can think creatively about solving data and interactive challenges in new and engaging ways.
+
+
+	This position is for an engineer who can be as effective writing code as they are working with a cross-functioning team. The ideal candidate for this role will be passionate about innovative front-end solutions. They will possess a combination of programming skills and aesthetic sensibility. A key deliverable is a web-based data portal for interactive analysis and download of data.
+
+
+	The candidate will join a team of scientific researchers, software/data engineers, data scientists, and visualization experts. While the team is based in Boston, the candidate can be fully remote. We are a dynamic team that works fast -- as such, we want to work with people who are forward thinking, self-motivated and excited about new opportunities!
+\end{quote}
+
+I've barely looked at it, but it looks kinda cool. 
+
+\subsection[Expedia Group]{Expedia Group: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	At Expedia Group, we are looking for candidates to match the dynamic, collaborative, and inclusive spirit of our company for a 12-month temporary assignment. We act as one team, working towards a common goal; to bring the world within reach. We relentlessly strive for better, but not at the cost of the customer. We act with humility and optimism, respecting ideas big and small. We value diversity and voices of all volumes.
+\end{quote}
+
+More sawdust applications. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[4 Dec: LinkedIn]{Maybe Today Will Be Good For Something -- 2023-12-04} % Top level section
+
+That weed from Saturday truly fucked my Sunday. Maybe I'll accomplish something today. 
+
+These garbage applications are getting a bit silly. My rough idea is that Dec will be numbers/momentum. Just apply to one more job each day, until I apply for 31 on the 31st. 
+
+\subsection[Crossover]{Crossover: AI Prompt Engineer, gt.school}
+
+\begin{quote}
+	About the job
+	
+	Crossover is the world's \#1 source of full-time remote jobs. Our clients offer top-tier pay for top-tier talent. We're recruiting this role for our client, gt.school. Have you got what it takes?
+
+	At gt.school, we're not just reimagining education; we're actively reinventing it. Leveraging state-of-the-art AI technology, we're on a mission to redefine the learning experience, making it faster, more fun, and highly personalized. Our platform is designed to push the boundaries of traditional education, offering a digital, self-paced learning environment that's both engaging and effective. As a member of our vibrant team, you'll contribute to the development of revolutionary AI-driven products and services that are transforming how students learn and grow on a global scale.
+
+	We're currently on the lookout for an innovative AI Engineer to enhance our core AI Engineering team. Collaborating closely with our Academic Engineers, AI Operations, and Program Operations teams, you'll be at the forefront of AI research and development, prompt engineering, and a mix of strategic technical and non-technical initiatives. Your role is crucial in advancing the academic impact of our AI tools, which are central to the learning journey of thousands of students enrolled in our programs worldwide.
+
+\end{quote}
+
+I guess this counts as exploring options. AI prompt engineer. It's working with AI, so it's something, right?
+
+\textbf{Update (2023-12-19):} I'm done with Crossover. Their English test is me repeating a bunch of weird sentences into a microphone while they watch on camera. Their reputation online is barely better than known scammers. I regret going as far with their test as I did. 
+
+\subsection[Jobot]{Jobot: AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a highly skilled and motivated AI Engineer to join our dynamic technology team. This is a permanent position, where the successful candidate will have the opportunity to work with cutting-edge technologies and be at the forefront of our innovative AI initiatives. You will be contributing to the development and deployment of large language models, working on complex AI and ML solutions, and driving the future of our AI capabilities. If you have a passion for data science, a deep understanding of artificial intelligence, and a desire to push the boundaries of technology, we would love to hear from you.
+
+\end{quote}
+
+Did I apply to this already?
+
+\subsection[Noir]{Noir: .NET Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	Our client has been producing unparalleled entertainment experiences for over 50 years. Today their global business comprises of: film studios, television stations, theme parks, media networks and retail outlets. They are about to embark upon several joint .NET / C\# software development projects with Microsoft that will take the IT industry by storm!
+
+\end{quote}
+
+This is really no effort, isn't it?
+
+\subsection[Saiw Capital]{Saiw Capital: Quant Engineer Lead}
+
+They didn't even have an about section.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[5 Dec: LinkedIn]{Sin and Penance -- 2023-12-05} % Top level section
+
+Is this just becoming my journal, as I'm writing here every day? I'm having a shite day. Not really, it isn't bad, except for the self loathing. Just a veg day. Let's get some job stuff done. Four easies and something a little more interesting. 
+
+To make things a little more interesting today, let's keep it on linkedin easyapply, but actually trim down the current CV into something a bit more sensible. I am actually starting to get an idea of what I'm looking for here, and finding jobs that could be a good fit. Let's start being less obviously disinterested in results. 
+
+\subsection[Trilogy International]{Trilogy International: Forward Deployment AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	This AI/DL/ML startup seeks a seasoned Forward Deployment AI Engineer to join the Engineering team. You would work on product-oriented research and development for identifying deepfake detection and protection, with an emphasis on building scalable robust infrastructure for data ingestion, storage, and sampling.
+
+\end{quote}
+
+This job looks cool. 
+
+\textbf{Update (2023-12-09):} Rejected via linkedin
+
+\subsection[Crystal Equation Corporation]{Crystal Equation Corporation: Python Engineer}
+
+Probably above where I'm at, but doesn't look awful far away. 
+
+\subsection[Info Way Solutions]{Info Way Solutions: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Job Title : Python Developer
+	Location : Hartford, Connecticut
+	Key Skills:
+	Python Programming
+	SQL
+	Scala (Nice to Have)
+	Strong Hands on Experience
+	Healthcare Domain
+
+
+\end{quote}
+
+Nice and straight forward.  
+
+\subsection[Talener]{Talener: Software Engineer - Python}
+
+\begin{quote}
+	About the job
+	
+	Our client is the essential global news network, delivering fast, unbiased news from every corner of the world to all media platforms and formats. Founded in 1846, today they are the most trusted source of independent news and information. On any given day, more than half the world's population sees news from this news network.
+
+
+\end{quote}
+
+Who is this global news client? GNN was a CNN rip off, I thought.
+
+\subsection[Durlston Partners]{Durlston Partners: Python/C++ Developer}
+
+\begin{quote}
+	About the job
+	
+	Durlston Partners is very closely working with a relatively new yet highly successful Equities Stat Arb Fund with offices worldwide and hugely ambitious plans over the next few years.
+
+	They are currently building out their brand new London office and are looking to hire a Python/C++ Developer to work on highly distributed systems with applications ranging from portfolio optimization and simulation frameworks to execution systems.
+
+	The firm emphasizes a culture of collaboration, strong open-source practices and an environment tailored for both researchers and developers.
+
+\end{quote}
+
+This actually fits my background of developing business systems quite well. I pared down to a more normal resume. I'm not tailoring it to this job, but I will do the easy apply and also email the link in the job description. 
+
+I had chatgpt write me a cover letter to be the email with which I sent the resume. This is the first app I wouldn't be surprised to get a call back on. I should probably start answering my phone. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[6 Dec: GitHub]{Floating Through the Depths -- 2023-12-06} % Top level section
+
+More journaling with my job hunt doc. I'm all sorts of fucked up, but kinda okay with it. Just chilling, really. The self-loathing is more or less background. 
+
+So today is going to be five LinkedIn and one GitHub. I'll use my new AI resume. I also sent that resume to my mom to take a look at. 
+
+\subsection[Crossover]{Crossover: AI Prompt Engineer, gt.school}
+
+\begin{quote}
+	About the job
+	
+	Crossover is the world's \#1 source of full-time remote jobs. Our clients offer top-tier pay for top-tier talent. We're recruiting this role for our client, gt.school. Have you got what it takes?
+
+	At gt.school, we're not just reimagining education; we're actively reinventing it. Leveraging state-of-the-art AI technology, we're on a mission to redefine the learning experience, making it faster, more fun, and highly personalized. Our platform is designed to push the boundaries of traditional education, offering a digital, self-paced learning environment that's both engaging and effective. As a member of our vibrant team, you'll contribute to the development of revolutionary AI-driven products and services that are transforming how students learn and grow on a global scale.
+
+	We're currently on the lookout for an innovative AI Engineer to enhance our core AI Engineering team. Collaborating closely with our Academic Engineers, AI Operations, and Program Operations teams, you'll be at the forefront of AI research and development, prompt engineering, and a mix of strategic technical and non-technical initiatives. Your role is crucial in advancing the academic impact of our AI tools, which are central to the learning journey of thousands of students enrolled in our programs worldwide.
+
+\end{quote}
+
+I already applied to this, but they posted it again, so I'll apply again with my new fancy pants res.
+
+\textbf{Update (2023-12-06):} Application immediately rejected due to the other application I already have in. Lol. 
+
+\subsection[Eliassen Group]{Eliassen Group: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Hybrid - 2-3 days on site a week in NYC office.
+	W2 Contract
+	\$65 to \$75 Depending on years of exp and skills
+
+	Primary skills : Python, Spark, Distributed computing 
+	Secondary Skills : Machine Learning, Data Science, Cloud computing 
+	Experience: 5-7 years experience Python/spark - data science project 
+	Data engineering background is okay
+	Fluent in python is top skill - Data heavy project 
+
+	Summary of Project: RRA/CCil - intervention risk reporting analytics and expected credit cost - corporate technology data mart
+
+
+\end{quote}
+
+This looks decent. Iffy about the company culture from the posting, but whatever. 
+
+\textbf{Update (2023-12-09):} Rejected via linkedin
+
+\subsection[fierlo]{fierlo: 3D/Computational Geometry Engineer - Machine Learning}
+
+\begin{quote}
+	About the job
+	
+	Research 3D/ Computational Geometry ML Engineer required for a company who lead their market.
+
+	This role will see you play a crucial role in developing novel algorithms/tools/AI models to solve complex geometric problems, such as manipulating the design of a garment to fit any person perfectly.
+
+\end{quote}
+
+I'm not qualified for this at all, but might as well shoot my shot. 
+
+\textbf{Update (2023-12-09):} Rejected via linkedin
+
+\subsection[Algo Capital Group]{Algo Capital Group: Machine Learning Engineer C++/ Python }
+
+\begin{quote}
+	About the job
+	
+	My client is a world-class quantitative investment firm renowned for its cutting-edge research, innovation, and exceptional performance in financial markets. With a commitment to pushing the boundaries of quantitative finance, we are seeking a talented and experienced C++/Python Machine Learning Engineer to join our dynamic team of experts.
+
+	Position Overview:
+
+	As a C++/Python Machine Learning Engineer, you will play a pivotal role in developing and implementing sophisticated machine learning models and algorithms to optimize our trading strategies. You will collaborate with a team of quantitative researchers, data scientists, and software engineers to create innovative solutions that drive our competitive edge in the financial industry.
+
+\end{quote}
+
+This one is actually a decent fit. I wouldn't mind taking this as a lead in tailoring my resume a bit more. 
+
+\subsection[Evolve Group]{Evolve Group: Algorithm Engineer}
+
+\begin{quote}
+	About the job
+	
+	Are you a seasoned software engineer seeking a new frontier for your technical prowess? Are you intrigued by the prospect of joining a dynamic Hedge Fund, where innovation meets finance, and where top tech engineers flourish? If so, this is the right opportunity for you!
+
+	This hedge fund, headquartered in New York with a global presence and known for its advanced technology and data-driven approach to investing, has achieved exceptional organic growth.
+
+	Renowned for their outstanding reputation, they have attracted and assembled a team of the brightest minds, creating a thriving collaborative culture that enables them to thrive in any market environment.
+
+\end{quote}
+
+I would actually qualify for this one, and holey moley, that would be a lot of money. 0.5-1.5 mil total comp. Holy shit that would change the trajectory of my life. 
+
+\subsection[AIClub]{AIClub: Instructor (part-time) for 6-12}
+
+\begin{quote}
+	About the job
+	
+	AIClub is looking for instructors to teach Grade 6-12 students. The instructor will follow the pre-set curriculum and help the students progress with their AI projects. Training on the curriculum is provided to the teacher. Topics to be taught contain statistics and concepts of Artificial Intelligence.
+
+\end{quote}
+
+This is my one job app on an alternate site. I was planning on github because I thought I read that there were job listings there, but i'm thinking I was mistaken, so I did Indeed instead. Everything on there is out of date, and I uploaded my AI resume for a teaching position, but I hate teaching so who cares.  
+
+\textbf{Update (2023-12-08):} They sent me an email to set up an interview which I didn't read until after the suggested day. Oops. I guess I'll follow through. Asked for a new time on Tuesdays and Thursdays for some reason. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[7 Dec: Indeed]{What the Hell Am I Doing? -- 2023-12-07} % Top level section
+
+Five LinkedIn and two Indeed. I don't even know what I'm doing at this point. It's 4 am, it's not even the seventh anymore. I have it in my head that it would be amusing to rotate my circadian rhythm around a day, so fall asleep later each day until I get back to where I started, having gained a day. 
+
+Man, indeed sucks. It will only show me jobs for teaching. I hate teaching. 
+
+\subsection[bodo.ai]{bodo.ai: Staff Software Engineer, SQL Query Engine}
+
+\begin{quote}
+	About the job
+	
+	Bodo exists to change the face of analytics computing; to accelerate performance, scale, and simplicity for data-intensive applications. Ultimately, we strive to change how the world will compute. And we’re looking for ambitious, hungry, talented engineers to help drive this change.
+
+\end{quote}
+
+Mid senior level, so probably not. 
+
+\subsection[Ascendion]{Ascendion: Software Developer}
+
+\begin{quote}
+	About the job
+	
+	Ascendion is a full-service digital engineering solutions company. We make and manage software platforms and products that power growth and deliver captivating experiences to consumers and employees. Our engineering, cloud, data, experience design, and talent solution capabilities accelerate transformation and impact for enterprise clients. Headquartered in New Jersey, our workforce of 6,000+ Ascenders delivers solutions from around the globe. Ascendion is built differently to engineer the next.
+
+\end{quote}
+
+I like the job title. 
+
+\subsection[Dale WorkForce Solutions]{Dale WorkForce Solutions: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Looking for experienced technical contributors to lead at the forefront of cutting-edge machine learning. If you are passionate about new technology trends in machine learning and cloud services and believe that state-of-the-art products are critical to customer success, we would like to talk to you. 
+
+\end{quote}
+
+Seems okay.
+
+\subsection[Soft Standard Olutions]{Soft Standard Olutions: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	You will be responsible for developing and implementing high-quality software solutions, creating complex applications using cutting-edge programming features and frameworks and collaborating with other teams in the firm to define, design and ship new features.
+
+\end{quote}
+
+I like python.
+
+\subsection[Insight Global]{Insight Global: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Insight Global is looking for a Python Developer to support one of our top financial services clients. This candidate will be a key player to the implementation and support of the company's re-balancing platform. This will involve the implementation of re-balancing methodologies using Python, as well as improving the platform's overall framework. The candidate should actively evaluate new products and technologies to build solutions that can streamline business operations. The candidate must be a team-oriented, delivery-focused person. They will be part of Agile technology team in a global organization comprising of DEV/QA/PO teams. Daily responsibilities include design and development of Python applications deployed to AWS cloud services, coding, documentation, testing, de-bugging \& level 2 support, etc.
+
+\end{quote}
+
+I still like python.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+\subsection[SeamlessWorld Consulting]{SeamlessWorld Consulting: C\# .Net Developer}
+
+\begin{quote}
+	About the job
+	
+	The ideal candidate will have strong problem solving skills as well as excellent oral and written communication skills. The candidate will help our team and our customers design, develop, and release solutions using modern technologies, such as: .NET Core, Python, Node.js, with a cloud first methodology using AWS technologies. As a member of the development team, the candidate's time will be spent working with software architecture, business analysts, quality assurance, infrastructure and other team members to ensure software platforms and features are properly architected, code is developed, tested, released to production, and proper production support is provided for existent and new products. 
+
+\end{quote}
+
+The site stopped responding when I hit submit. 
+
+\subsection[BEHAVIORALLY INC]{BEHAVIORALLY INC: Lead Backend Data Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are Behaviorally, Inc., the \#1 global market leader in digital shopper marketing. With decades of experience and category expertise in shopper research, we apply our unique behavioral framework and a digital-first approach to help clients navigate the uncertainty of a changing retail environment. We help brands make better shopper marketing decisions by defining and diagnosing the digital and physical behaviors that drive shopper growth. 
+
+\end{quote}
+
+Indeed number two.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[8 Dec: Indeed Emails]{Slightly Less Out of It -- 2023-12-08} % Top level section
+
+I'm slighly less loopy today. I think rotating my sleep schedule 360 was a silly idea, though. 
+
+Indeed sucks for finding stuff I want, so I'll check the emails I've been getting from them instead of the site itelf. 
+
+I need to start highlighting the jobs that are a good fit. That way I can more easily look them up when I revise me resume and strategies. A simple bold or italic in the toc would do nicely for a bi or trinary.
+
+%LinkedIn 1
+
+\subsection[Verticalmove, Inc]{Verticalmove, Inc: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are actively seeking senior engineers to join our team, with a specific focus on enhancing our data engineering and machine learning capabilities. Senior engineers, in particular, should possess a minimum of 2 years of experience in machine learning and data engineering, enabling them to effectively process data and enhance data quality through (semi-)automated processes. Don't hesitate to apply, even if you believe you might not fulfill every qualification. If you are motivated to learn and contribute to the development of foundational models, we welcome your application.
+
+\end{quote}
+
+Why is everything senior level?
+
+%LinkedIn 2
+
+\subsection[Stanford Black Limited]{Stanford Black Limited: Python Developer - Hedge Fund}
+
+\begin{quote}
+	About the job
+	
+	One of the top systematic trading firms in the world is looking for exceptional for Python developers to join a completely greenfield initiative and help work on a front-office trade management platform from scratch working with a team of passionate engineers.
+
+\end{quote}
+
+This one sounds pretty cool, and no mention of senior level. 
+
+%LinkedIn 3
+
+\subsection[Stealth Startup]{Stealth Startup: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Right now, we are helping our portfolio companies grow their teams. There are needs at early-stage startups as well as established late-stage companies for data scientists and machine learning engineers looking to build next generation applications or AI products.
+
+\end{quote}
+
+The blurb on this one looks poorly translated. Might be a scam. 
+
+%LinkedIn 4
+
+\subsection[o9 Solutions, Inc.]{o9 Solutions, Inc.: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	The ML Engineer plays a pivotal role in our organization, creating and maintaining advanced algorithmic libraries that our entire team relies on, including Data Scientists. Our ideal candidate is a highly experienced developer with a strong foundation in Data Science. As a ML Engineer, you will be responsible for developing algorithms that are robust, scalable, and maintainable. Algorithms that can handle immense volumes of data.
+
+\end{quote}
+
+Oh, I'm not even reading this shit. I probably dshould do that. 
+
+\textbf{Update (2023-12-11):} Application rejected by email.
+
+%LinkedIn 5
+
+\subsection[Zacks Investment Research]{Zacks Investment Research: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	As a key member of our Zacks AI team, you will drive innovations in NLP and Generative AI. Your expertise will play a crucial role as we expand our MVP chatbot, integrating more financial databases and adding layers of personalization to enhance user experience. You would constantly be experimenting with new prompting techniques, latest Gen AI frameworks, updating our solutions with the latest research, and ensuring our systems are enterprise-grade, efficient, and cost-effective.
+
+\end{quote}
+
+ML but not the direction I'm super interested in. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Bessemer Trust Company]{Bessemer Trust Company: Digital Engineer (Hybrid)}
+
+\begin{quote}
+	About the job
+	
+	As a digital engineer for our digital systems, you will be responsible for the development and support of highly visible mobile and web-based client-facing systems. The ideal candidate will enjoy working in an environment where he/she can make a material impact using a variety of technical skills. This position is focused on developing, testing, and deploying applications leveraging automation and cloud technologies.
+
+\end{quote}
+
+More front end sounding than I'd prefer. Also external site application, which is annoying, though not terrible. 
+
+%Indeed 2
+
+\subsection[Lockard \& Wechsler Direct]{Lockard \& Wechsler Direct: Full Stack Developer }
+
+\begin{quote}
+	About the job
+	
+	Lockard \& Wechsler Direct is a leading advertising agency that drives innovation in the advertising sector. Our Attribution and Reporting capabilities are at the heart of ensuring that our clients understand the impact of their campaigns. We are on a mission to redefine the boundaries of advertising attribution, and we need a dynamic Senior Full Stack Software Developer to join our journey.
+
+	Our ideal candidate will have at least 5 years of full-stack development experience with a strong background in data analysis. In addition to technical know-how, we need someone with stellar interpersonal skills. The Senior Full Stack Developer will be expected to explain complex concepts to non-technical stakeholders and work with people at all levels of the organization. Demonstrated problem solving ability and experience producing accurate work on tight deadlines is a must. Prior work in advertising is a huge plus.
+
+\end{quote}
+
+Where is Irvington?
+
+\textbf{Update (2023-12-14):} Followup as suggested by indeed, written by chatgpt:
+
+\begin{quote}
+	About the job
+	
+	I hope this message finds you well. I am writing to express my continued interest in the Senior Full Stack Software Developer position at Lockard \& Wechsler Direct. Having recently applied for the role, I am enthusiastic about the opportunity to contribute my skills and experiences to your innovative team. The prospect of being part of a leading advertising agency that is redefining the boundaries of advertising attribution resonates strongly with my background and career aspirations. With over nine years of full-stack development experience, including proficiency in Python with a focus on the Django framework, I am confident in my ability to contribute to the development, integration, and optimization of robust software solutions in the realm of advertising attribution and data reporting.
+
+\end{quote}
+
+%Indeed 3
+
+\subsection[Amalgamated Life Insurance]{Amalgamated Life Insurance: Senior SalesForce Developer}
+
+\begin{quote}
+	About the job
+	
+	Amalgamated Life is looking for an enthusiastic, seasoned Senior SalesForce developer to join our IT development team focused on Salesforce and AWS Cloud. The developer will collaborate with a team of engineers, leads and business managers to deliver quality solutions.
+
+\end{quote}
+
+Ooo, insurance.
+
+\textbf{Update (2023-12-14):} Message sent to followup.
+
+\begin{quote}
+	The message:
+	
+	I hope this message finds you well. I am writing to express my continued interest in the Senior Salesforce Developer position at Amalgamated Life. Having recently submitted my application, I am enthusiastic about the opportunity to contribute my skills and experiences to your dynamic IT development team. The prospect of collaborating with a team of engineers, leads, and business managers to deliver quality solutions in Salesforce and AWS Cloud is particularly appealing to me. With over 5 years of hands-on experience in solution architecture, and application development, I am confident in my ability to provide architectural strategy and subject matter expertise as outlined in the job description. I am particularly drawn to the hybrid nature of the role and am fully prepared to work on-site at the NY Office as required. Thank you for considering my application. I am eager for the opportunity to discuss in greater detail how my experiences align with the specific needs and goals of Amalgamated Life. Please let me know if there are any additional materials or information needed from my end. 
+
+\end{quote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[9 Dec: Workflow Idea]{Let's Plan Some Upgrades to the Job Hunt Tracking -- 2023-12-09} % Top level section
+
+I want to add some automation to this document. I want to build an program that will let me type this stuff into a database, and then pull that info and pump it into the tex file. Further, I want to make system very segmented, so I can have fully functioning pieces before I have a fully functioning whole. 
+
+First would be a form to take an entry in and store it as an object. This object could then be saved as a json or passed directly to the next part. Function would build the form, validate the entires, and return the input as an object. 
+
+Next an object would be written to a database. That object could be pulled form a json or not. The function could be given either an object or a filename, and it can act accordingly. 
+
+Next, an object would be retrieved from the database, and possibly written to a json. It would return an object given specifying info such as a date. This output could be fed into a json writer. 
+
+Next, the object or json is written to the tex file. Again, function can figure out what the argument is and proceed accordingly. 
+
+Next, a controller would read the tex file and the database to determine if the tex requires updating, and then call the previous functions. If the last entry in the tex file is earlier than the last entry in the database, it will retrienve all the missing dates. If they are the same date, it does nothing. If the last tex is later than the last database row, an error is thrown. 
+
+Also, I think that a new rule I should include for this process. Following up on a job counts as one of the applications required for that day. So tomorrow I could apply to 8 jobs and follow up on two. 
+
+%LinkedIn 1
+
+\subsection[Saama]{Saama: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Saama develops life science solutions that accelerate clinical and commercial development. Today, more than 50 biotech companies—including many of the top 20 pharmaceutical companies—use Saama's award-winning Life Science Analytics Cloud (LSAC) platform to accelerate more than 1,500 studies, including the clinical trial that led to the world's first COVID-19 vaccine. LSAC's rich applications facilitate unprecedented and authoritative oversight and automation of comprehensive clinical research data, enabling companies to file New Drug Applications (NDAs) more efficiently and bring treatments to patients sooner. If you're passionate about solving complex problems with machine learning and have experience working with structured data, we'd love to hear from you!
+
+\end{quote}
+
+I did not even look at any of these. LinkedIn was not letting me apply to the first two I had chosen, so when I got easy apply working again, I just wanted to grab a pile quick. 
+
+%LinkedIn 2
+
+\subsection[orbit]{orbit: Machine Learning Engineer}
+
+They didn't have an about section...
+
+\textbf{Update (2023-12-13):} Application rejected by email.
+
+%LinkedIn 3
+
+\subsection[Nicoll Curtin]{Nicoll Curtin: Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	My client is looking for a highly talented software engineer to join their front office trading environment. You will be building systems that support the entire investment process, from research and analysis to trading, risk management, funding, and settlement. The firm offers a unique career opportunity for software engineers, accelerated development path with exposure to brilliant technical talent, investment, and quantitative teams.
+
+	Structured learning, mentorship, networking, and engagement with senior leaders are provided.
+
+	This firm allows high performing engineers to position themselves for challenges, impactful solutions, and career growth. 
+
+\end{quote}
+
+Is this quant?
+
+%LinkedIn 4
+
+\subsection[Thurn Partners]{Thurn Partners: Software Engineer (Python) - New York}
+
+\begin{quote}
+	About the job
+	
+	This is an exciting opportunity to join one of the most successful hedge funds on the market right now. The firm is an international hedge fund and quantitative investment management firm with over 700 employees working globally, employing fully automated trading strategies across multiple asset classes. Over the past five years, the firm has experienced exceptional returns and is now undergoing significant investment into its technology ecosystem. The company prides itself on being a technology-driven firm, with a meticulous scientific approach, which specialises in developing automated trading systems.
+
+	This firm's success is built through a culture that encourages individuals to challenge conventional thinking and allows for some of the most talented minds in the industry, to work alongside one another, to develop innovative financial strategies across a range of asset classes.
+
+\end{quote}
+
+Eh, looks okay. 
+
+%LinkedIn 5
+
+\subsection[ASICSoft]{ASICSoft: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+    Demonstrated experience in developing machine learning approaches for biophysics, biochemistry, structural biology, drug discovery, cheminformatics, quantum chemistry, etc.
+    With a focus on deep learning techniques (deep neural networks, convolutional neural networks, recurrent neural networks, deep reinforcement learning, deep belief nets, Boltzmann machines, graphs, transfer learning, etc.)
+    We are open to considering candidates of all experience levels (provided there is ample evidence of deep learning expertise)
+    Strong Python programming ability (additional coding experience is a plus)
+    Relevant industries/areas: pharma/biotech, tech, academic labs, ML-driven startups doing drug discovery/protein research, etc.
+
+\end{quote}
+
+Looks approachable. 
+
+\textbf{Update (2023-12-13):} Application rejected by email. I guess it wasn't so approachable. Or maybe I should have written a cover letter. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Bloomberg]{Bloomberg: Enterprise Data Sales Development Rep, Enterprise Sales}
+
+\begin{quote}
+	About the job
+	
+	As the financial markets evolve, it is becoming even more important for Bloomberg to view and connect with our clients from a data and technology driven lens. Due to significant growth and huge opportunity, we are looking for a hardworking, data driven professional to join our North American Enterprise Sales force. Your subject matter expertise will lend itself well to our clients as you learn the building blocks of Enterprise Data Sales and our suite of solutions! 
+
+\end{quote}
+
+A sales job. That would be interesting. 
+
+\textbf{Update (2023-12-11):} Application rejected by email.
+
+%Indeed 2
+
+\subsection[Holmdel]{Holmdel: NetSuite Administrator}
+
+\begin{quote}
+	About the job
+	
+	CentralReach is the \#1 provider of SaaS software solutions for autism and IDD care. Trusted by more than 150,000 users, we enable therapy providers, educators, and employers scale the way they deliver Applied Behavior Analysis and related therapies with innovative technology, market-leading industry expertise, and world-class customer satisfaction. 
+
+\end{quote}
+
+Ew, New Jersey.
+
+%Indeed 3
+
+\subsection[United Teletech Financial Federal Credit Union]{United Teletech Financial Federal Credit Union: Lead, Software Implementation Engineer}
+
+\begin{quote}
+	About the job
+	
+	A Lead Software Engineer will accept ownership of the end user experience through integration between different software/web-based applications, including those of other team members, being designed and modified to support a project. The Lead Software Engineer will be responsible for the technical adequacy of the project software.
+
+\end{quote}
+
+So many dumb job titles. 
+
+%Indeed 4
+
+\subsection[LinkIt!]{LinkIt!: Technical Account Manager}
+
+\begin{quote}
+	About the job
+	
+	We are looking to hire a Technical Account Manager who will help us support our rapidly expanding client base. 
+
+\end{quote}
+
+The relatively low salary appeals to my lack of self esteem. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[10 Dec: Missed]{I ran out of steam on the real 10th -- 2023-12-10} % Top level section
+
+This is actually the eleventh. I was not high functioning after Joe's bday and eight hours of a board game, so now I'm playing catch up. 
+
+Also, I've decided that I'll highlight my top picks with italics in the toc. Nevermind, that doesn't seem to work. I'll try to look up how to fix it later.
+
+Apparently, 
+
+%LinkedIn 1
+
+\subsection[\textit{Stealth Startup}]{\textit{Stealth Startup}: Deep Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are among the trailblazers in the AI landscape, recognized globally for our pioneering technology and groundbreaking solutions. At the company, we employ AI to address real-world challenges, steering the trajectory of the future. If you're enthusiastic about the forefront of AI and keen to redefine its limits, we invite you to be a part of our dynamic team.
+
+\end{quote}
+
+I really like this company, or at least how they describe themselves. I'm not qualified for the job, but maybe I make this one of the boosts I'm going to add as 11-15.  
+
+%LinkedIn 2
+
+\subsection[Twill]{Twill: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Twill is a global software-enabled healthcare platform with a mission to improve the mental and physical health of people everywhere. Our evidence-based programs and supportive communities help people manage life challenges and chronic conditions, while providing access to solutions such as telehealth, AI-powered coaching, and therapeutics. We empower people wherever they are in their care journey to adopt healthy behaviors, and our solutions are used by enterprises, health plans, health systems, pharmaceutical manufacturers, and individuals around the world. Today, the Twill platform is available globally in 10 languages and covers more than 18 million lives. In 2023, Twill was named one of Built In's 100 Best Places to Work in the U.S.
+
+\end{quote}
+
+Bah, healthcare. 
+
+\textbf{Update (2023-12-14):} Application rejected by email.
+
+%LinkedIn 3
+
+\subsection[Lumicity]{Lumicity: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Our client is a cutting-edge semiconductor startup specializing in the development of advanced computing solutions. They have a speech recognition team working on an application of their technology for emotion recognition. The team is currently looking to hire a machine learning engineer. 
+
+\end{quote}
+
+Speech processing. I guess that could be interesting.  
+
+%LinkedIn 4
+
+\subsection[Goliath Partners]{Goliath Partners: Quantitative Developer}
+
+\begin{quote}
+	About the job
+	
+	Work on research and quant trading systems
+	Partner with quant researchers \& core engineers
+
+\end{quote}
+
+Would this make me a quant? Is that what that is? 
+
+%LinkedIn 5
+
+\subsection[Insight Global]{Insight Global: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Insight Global is seeking a Machine Learning Engineer to join their client. Responsibilities listed below:
+	Design, implement and distribute large-scale Machine Learning models
+	Maintain and improve data pipeline using Machine Learning infrastructure and existing Machine Learning models
+	Assess the impact of using new data sources on data quality and comprehensiveness of graph
+	Data manipulation and Statistical modeling
+	Time series forecasting
+	Utilize predictive modeling and optimize algorithms
+
+\end{quote}
+
+This sounds pretty cool. Definitely the direction I want to go, though I'm also definitely not there yet.  
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[\textit{Fora Financial LLC}]{\textit{Fora Financial LLC}: Application Support Specialist}
+
+\begin{quote}
+	About the job
+	
+	Position Responsibilities:
+
+    Speaking to customers to quickly get to the root of their problem.
+    Triage/Troubleshooting application issues.
+    Providing timely and accurate customer feedback.
+    Talking users through a series of actions to resolve a problem.
+    Following up with users to ensure the problem is resolved.
+    Supporting the roll-out of new applications.
+    Providing support in the form of procedural documentation.
+    Managing multiple cases at one time.
+    Ability to write SQL Statements to rectify data problems
+
+	What You Have:
+
+    3+ years prior experience in user support or a similar role.
+    Knowledge of SQL
+    Knowledge of C\# / .NET would be a significant plus
+    Proficiency in Windows and Mac OS.
+    Experience with remote desktop applications and help desk software.
+    Attention to detail and good problem-solving skills.
+    Excellent interpersonal skills.
+    Good written and verbal communication.
+    Problem-solving attitude
+    Collaborative team spirit
+
+	Why Fora Financial?
+
+    Attractive company subsidized Medical, Dental, and Vision plans with leading insurance providers
+    401k Plan with Company Match
+    Gym Reimbursement for Employees on Medical Plans
+    Life Insurance at No Cost to Employees
+    Generous Time Off Plan
+    Flexible Spending and Commuter Benefits
+    Hybrid working model offering employees the option to work from home 2 days a week
+
+
+\end{quote}
+
+\begin{quote}
+	My 'About Me' Section:
+
+	With a robust background in developing and maintaining bespoke enterprise database systems at the Bayeux Group, I bring over 3 years of hands-on experience to the position, making me an ideal candidate. Proficient in SQL, my expertise extends beyond the technical realm to include diverse skills acquired in project management, the trades, retail, and food preparation.
+
+	My role at the Bayeux Group honed my problem-solving abilities, customer service finesse, and capacity to excel under pressure, ensuring optimal performance even in high-stakes situations. Collaborating seamlessly within team environments has been a hallmark of my career, demonstrating a strong commitment to shared goals and collective success.
+
+	Moreover, my adaptability is underscored by a track record of successfully managing made-to-order enterprise database systems, aligning seamlessly with the triage and troubleshooting responsibilities outlined in the position. Additionally, my exposure to C\#, proficiency in Windows, and experience with remote desktop applications align well with the requirements of the role.
+
+\end{quote}
+
+This one looks pretty cool. I'm interested enough to ask chat gpt to write an about me section. 
+
+%Indeed 2
+
+\subsection[Anchora]{Anchora: B2B Sales/Business Development Tech}
+
+\begin{quote}
+	About the job
+	
+	-2-5 years of B2B experience
+	-Experience tech industries
+	-experience in BPO industry is ideal
+	-Great communication skills
+	-Ability to cold call
+	-Tenacity
+	-Organized
+	-Thick skinned
+
+\end{quote}
+
+Thicked skinned...
+
+\textbf{Update (2023-12-15):} Application rejected by email.
+
+%Indeed 3
+
+\subsection[Customer Engineering Services]{Customer Engineering Services: Product Technical Specialist - Greater NY Area}
+
+\begin{quote}
+	About the job
+	
+	As our client's Product Technical Specialist, you will be a key member of the Technical Support team. The Product Technical Specialist is responsible for providing technical and sales support at various marketing \& dealer events across the country; providing ongoing training and sales support to regional dealers in the New England markets. The ideal candidate will reside in the Greater New York area.
+
+\end{quote}
+
+I wonder if I'm allowed to travel. 
+
+%Indeed 4
+
+\subsection[Fora Financial LLC]{Fora Financial LLC: Data Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are looking for an experienced Data Engineer to play a critical role in our enterprise data initiative. You will collaborate with cross-functional teams to ensure the availability, integrity, and reliability of our data, empowering our organization to extract valuable insights and drive business success.
+	Our environment is completely built and hosted on Azure Cloud. You will work with SQL Server, Azure Databricks, Snowflake and various data sources both internal and purchased from data providers.
+	If you are passionate about leveraging data to drive business success and have expertise in Azure Databricks, we invite you to join our dynamic team at Fora Financial. Apply now to be a key contributor to our data-driven journey!
+
+\end{quote}
+
+I'm not as close to qualified for this one, so I'll not make so much as an effort as I did for the other one from this company. 
+
+%Indeed 5
+
+\subsection[Personal Touch Home Care]{Personal Touch Home Care: EDI \& IT Systems Implementation Specialist}
+
+\begin{quote}
+	About the job
+	
+	The EDI and IT Systems Implementation Specialist is responsible for the design, development, and implementation of API and electronic data interchange systems. This role also assists with the implementation, support, and maintenance of IT systems.
+
+\end{quote}
+
+Eh, it's a living.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[11 Dec: Boost]{But not really -- 2023-12-11} % Top level section
+
+First five are LinkedIn, second five are Indeed, so for my next set, I'm going to add effort to a number of my favorite applications. Today is the eleventh, so ten applications, one of which will be more than the usual no effort fodder. 
+
+%LinkedIn 1
+
+\subsection[Compunnel Inc.]{Compunnel Inc.: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Are you a seasoned Python developer looking for a new challenge?
+	Our client is looking to bring on a Python Developer to help them with an existing application.
+	The qualified candidate will bring strong Python / Poetry experience and have exposure to ML - based applications.
+
+\end{quote}
+
+This seems approachable 
+
+%LinkedIn 2
+
+\subsection[Open Systems Technologies]{Open Systems Technologies: AI Engineer (Python)}
+
+\begin{quote}
+	About the job
+	
+	A financial firm is currently looking for an AI Engineer to join their team in New York. 
+
+\end{quote}
+
+I wonder what the proper way to use LinkedIn easy apply is. Like, where does a cover letter properly go, assuming I wanted to write one.  
+
+%LinkedIn 3
+
+\subsection[TransRe]{TransRe: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	This role will be part of our Applied Data Team and will be responsible for providing Machine Learning Engineering support. Responsibilities include, but are not limited to:
+
+    Constructing machine learning models including data collection, normalization, and standardization, data pipeline construction, model selection and hyperparameter tuning, working ml systems that can add new data into ml model
+    Creating apps to present ml models and host them in the cloud or locally
+    Creating pipelines to query and retrieve and update data for existing applications to keep them updated
+    Supervising the scaling and management of the machine learning modeling ecosystem
+    Finding orthogonal data sets to supplement models and increase alpha
+    Staying abreast of new technology and machine learning methodologies and implementing them into the model building architecture
+    Working alongside (re)insurance domain experts to improve predictive aspects of their lines of business
+
+\end{quote}
+
+Eh, I'm tired and I'm trying to get these done quickly.  
+
+%LinkedIn 4
+
+\subsection[M Square Systems]{M Square Systems: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+	
+	We seek a talented and passionate Artificial Intelligence Engineer with a financial background to join our team and help us develop cutting-edge AI solutions for the financial sector. In this role, you will be responsible for the entire AI pipeline, from data collection and pre-processing to model training, deployment, and monitoring, specifically focusing on financial data and applications. You will also work closely with other engineers, data scientists, financial analysts, and product managers to ensure that our AI solutions are aligned with business objectives and address the specific needs of the financial industry.
+
+\end{quote}
+
+Haha, this is going to go somewhere, I'm so absolutely incredibly sure :p 
+
+%LinkedIn 5
+
+\subsection[Brooksource]{Brooksource: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Brooksource is looking for several Software Engineers to join their Fortune 18 Retail client's Machine Learning Enablement \& Team. As a ML Engineer you will analyze how internal users have adopted ML tools in the environment, identify their needs, and work with Custom Tools team to strategically plan out how to make machine learning experience in the company better. The goal is to help internal customers improve and streamline their machine learning projects/applications. 
+
+\end{quote}
+
+My imposter syndrome makes me excited about low paying job listings.  
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[SUNco Project]{SUNco Project: Account Executive}
+
+\begin{quote}
+	About the job
+	
+	Account Executives are integral members of our high-performance sales team. They're responsible for enrolling new customers and play a key to the growth and success of our business.
+
+\end{quote}
+
+That's a lot of money. Maybe I shouldn't have used my AI resume. 
+
+\textbf{Update (2023-12-12):} Sent me an email to continue my application. I answered a few basic questions and described my sales experience. 
+
+%Indeed 2
+
+\subsection[Prudent Financial Solutions]{Prudent Financial Solutions: IT Systems Administrator / Support Specialist}
+
+\begin{quote}
+	About the job
+	
+	You will be responsible for maintaining systems at optimal operating capacity. Partnering company leadership to identify opportunities for system process efficiencies and marketing departments to ensure high client satisfaction across all channels. The ideal candidate must have experience working in the financial services sector with a strong record of critical thinking, data and metrics analysis, operational strategy planning, and organizational management.
+
+\end{quote}
+
+Mmm, why am I applying to IT positions?
+
+%Indeed 3
+
+\subsection[BroadStaff Inc]{BroadStaff Inc: Technical Account Manager - Machine Learning \& AI}
+
+\begin{quote}
+	About the job
+	
+	We are on the lookout for a proactive and sales-driven Technical Account Manager (TAM) to join our innovative team. The TAM will support our sales initiatives and guide our customers through their technical journey in Machine Learning (ML) and Artificial Intelligence (AI) throughout the sales lifecycle. The perfect candidate will have a robust background in ML and AI technologies, outstanding communication abilities, and a solid track record in technical sales and account management. 
+
+\end{quote}
+
+This kinda fits me.
+
+%Indeed 4
+
+\subsection[Nippon Life Benefits]{Nippon Life Benefits: Development Operations Engineer}
+
+\begin{quote}
+	About the job
+	
+	The primary responsibility of this position will be to manage and cloud-based system for all Nippon Life Benefits. Assume the lead role on developing operational, multi-region solutions within Microsoft Azure or Hybrid environment. Ensure that all infrastructure components adhere to consistent secure development standards and any implementation and dependency risks are identified and mitigated. Additionally, provide application support to end users and be able to conduct maintenance development tasks.
+
+\end{quote}
+
+Thoughts
+
+\textbf{Update (2023-12-15):} Application rejected by email.
+
+%Indeed 5
+
+\subsection[Health Center, Inc]{Health Center, Inc: Application Developer}
+
+\begin{quote}
+	About the job
+	
+	New York City based health services organization has an opening for an entry level Software Developer whose primary objective will be to collaborate with internal teams to build and maintain software applications using languages and technologies of the .NET framework and SQL, write clean and scalable code, and provide technical support throughout the development life cycle.
+
+\end{quote}
+
+I'm wiped. I feel like such a fraud at this point. I don't understand what half of these jobs are even asking for, let alone how to do any of it. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Broadstaff]{Broadstaff}
+
+This wasn't much. I just made a profile on this staffing website, which involved almost nothing. I'm just wrecked at this point, so that's what we're doing. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[12 Dec: Short]{Long -- 2023-12-12} % Top level section
+
+day
+
+%LinkedIn 1
+
+\subsection[Jobot]{Jobot: ML/ AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a highly skilled and passionate Permanent ML/AI Engineer to join our dynamic team in the technology industry. The ideal candidate will have a strong background in Machine Learning and Artificial Intelligence, with an interest in joining a complex high performing Data Science team.
+
+\end{quote}
+
+Another jobot 
+
+%LinkedIn 2
+
+\subsection[Crossover]{Crossover: Software Engineer (AI-Powered Development), Trilogy (Remote)}
+
+\begin{quote}
+	About the job
+	
+	We seek candidates with a strong background in software engineering and a capacity for adapting to new technologies. Moreover, an interest in the latest generative AI developments and a drive for innovation are crucial. While our primary tech stack is AWS Serverless with TypeScript, we're looking for versatile engineers who can excel in a variety of technical environments and challenges.
+
+\end{quote}
+
+Another crossover. 
+
+\textbf{Update (2023-12-13):} Followed up on crossover website and didn't meet the criteria without substantial lying. I'm not sure how I feel about crossover anyway. Very sketchy things being said online. 
+
+%LinkedIn 3
+
+\subsection[Singleton Group]{Singleton Group: AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	Singleton is searching for an AI Engineer. The person starting this position will have the opportunity to work on two different AI products currently under development as well as being a key contributor in a budding AI/ML consulting practice.
+
+\end{quote}
+
+Looks fun. 
+
+%LinkedIn 4
+
+\subsection[ToothFairyAI]{ToothFairyAI: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+	
+	As a Founding AI Engineer at ToothFairyAI, you'll be at the cutting edge of AI research and application, playing a crucial role in keeping us at the forefront of what's possible with LLMs. 
+
+
+	Your work will involve improving and maintaining our novel AI platform and collaborating closely with our product team to develop new features. 
+
+
+	Your contributions will significantly impact user and developer experiences, leveraging advanced LLM techniques, RAG architectures, and autonomous systems.
+
+	You will work closely with cross-functional teams to build innovative solutions that drive business growth, enterprise AI adoption and enhance user experience.
+
+\end{quote}
+
+Founding member. That sounds awful. 
+
+%LinkedIn 5
+
+\subsection[Onin Staffing ]{Onin Staffing : Software Design Engineer}
+
+\begin{quote}
+	About the job
+	
+	Work for public sector projects specifically focusing on financial management and financial crimes, fraud detection, and anti-money laundering. 
+
+\end{quote}
+
+Could be an interesting educational opportunity. 
+
+\textbf{Update (2023-12-16):} Application rejected by email.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Prudent Financial Solutions]{Prudent Financial Solutions: Business Financial Sales}
+
+\begin{quote}
+	About the job
+	
+	Polaris is a fast-growing financial services company. We value and look for individuals who are excited to work in a fast-paced, high-energy environment where earning potential is unlimited. This role is NOT for everyone. Our team is composed of highly driven go-getter salespeople who embody the Wall Street drive.
+
+\end{quote}
+
+Woohoo, coke!
+
+%Indeed 2
+
+\subsection[New York Life Insurance Company]{New York Life Insurance Company: New York Life Accelerated Path to Management Program}
+
+\begin{quote}
+	About the job
+	
+	We're looking for people who want to make a lasting impact on the financial well-being of individuals, families, and small businesses—motivated people who can answer yes to one of the following questions:
+
+    Do you have sales or managerial experience in another industry?
+    Have you previously run your own business?
+    Do you have an MBA or other equivalent degree?
+
+\end{quote}
+
+I have run my own business.
+
+\textbf{Update (2023-12-12):} Hring manager messaged me indicating that they weren't interested in someone who wasn't already living in the area.
+
+\textbf{Update (2023-12-16):} Rejection email.
+
+%Indeed 3
+
+\subsection[Hamamatsu Corporation]{Hamamatsu Corporation: IT Data Analyst}
+
+\begin{quote}
+	About the job
+	
+	As a Data Analyst, this position will play a crucial role in building, analyzing, and interpreting complex data sets to provide valuable insights and support data-driven decision-making processes. This role will also work closely with cross-functional teams to understand business needs, identify trends, and develop actionable recommendations across multiple pre-sale and post-sale applications.
+
+\end{quote}
+
+\begin{quote}
+	Cover Letter:
+
+	Dear Hiring Manager,
+
+	I am writing to express my strong interest in the Data Analyst position as advertised. With a Bachelor's degree in Computer Science, I am eager to contribute my skills in building, analyzing, and interpreting complex datasets to drive valuable insights for your team.
+
+	In my previous role at The Bayeux Group, I successfully collaborated with cross-functional teams to understand business needs, identify trends, and develop actionable recommendations across diverse pre-sale and post-sale applications. My responsibilities included collecting and analyzing large datasets from various sources, developing and maintaining data models, and creating insightful dashboards and reports to monitor key performance indicators. Notably, I played a key role in establishing robust data governance practices.
+
+	I am proficient in SQL for data retrieval and manipulation, with experience using SQL Server Management Studio. My familiarity with database systems and data warehousing concepts, coupled with a proactive and collaborative mindset, has enabled me to work effectively both independently and as part of a team. Furthermore, I have a strong track record of delivering insights and solutions from data in a fast-paced, data-driven manufacturing/distributor organization.
+
+	I bring to the table proficiency in data analysis and visualization tools, including Tableau, Excel, Python, and R. My ability to use statistical techniques and data visualization tools to present findings in a clear and meaningful way to laypeople aligns with the requirements of the position. I am committed to staying updated with industry trends, best practices, and emerging technologies in data analysis.
+
+	I am excited about the opportunity to contribute my skills to Hamamatsu, and I am confident in my ability to make a significant impact as a Data Analyst. Thank you for considering my application. I look forward to the possibility of discussing how my experiences align with your team's needs.
+
+	Sincerely,
+
+\end{quote}
+
+Actually went to their website and had ChatGPT write a cover letter for me. It's quite the stretch, so I'll have to be on my bullshit a-game if I get an interview. I'm going to call this one of the boosts. 
+
+%Indeed 4
+
+\subsection[TenViz]{TenViz: Sales \& Business Development - Predictive AI for Investing}
+
+\begin{quote}
+	About the job
+	
+	TENVIZ: 7 startup offering Artificial Intelligence tools to professional investors - Mutual Funds, Family Offices, Hedge Funds, etc.
+
+	AI is the future in investing and we have a great product that needs to be systematically offered to clients
+
+\end{quote}
+
+Skills match well, but that's about it. 
+
+%Indeed 5
+
+\subsection[Zettalogix]{Zettalogix: Data Modeler}
+
+\begin{quote}
+	About the job
+	
+    Develop strategies for effective data analysis and reporting. Selects, configures, and implements analytical solutions.
+    Develop and implement data analytics, data collection systems, and other strategies that optimize statistical efficiency and quality.
+    Identifies, analyzes and interprets trends or patterns in complex data sets.
+    Monitor performance and quality control plans to identify performance. Works on problems of moderate and varied complexity where analysis of date may require adaption of standardized practices.
+    Analyze spend data sets, transform data, and implement algorithms using toolkits TensorFlow and Python to create machine learning models that help solve taxonomy classification.
+    Analyze and improve stability, efficiency, reliability of the spend classification data sets.
+
+
+\end{quote}
+
+Hey, it's a job, with requirements and money and stuff. Wow.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Hamamatsu]{Hamamatsu Corporation: IT Data Analyst}
+
+This was today's Indeed 3. I didn't do a ton, but ChatGPT helped me with a cover letter, and I went on their website to actually apply. 
+
+%Boost 2
+
+\subsection[CUSTOMER ENGINEERING SERVICES]{CUSTOMER ENGINEERING SERVICES}
+
+I went through their website's application stuff. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[13 Dec: A Day Late]{A Dozen Jobs Short -- 2023-12-13} % Top level section
+
+day
+
+%LinkedIn 1
+
+\subsection[Cynosure Technologies]{Cynosure Technologies: REMOTE - Python Developer}
+
+\begin{quote}
+	About the job
+	
+	· As a Python Developer, you will be responsible for developing highly scalable applications in the Python/Django framework
+	· Your main tasks will include creating and deploying applications in the Azure environment with various interconnected Azure components, enhancing front-end applications using JavaScript (Vue and/or React JS), HTML5, and CSS3, identifying and fixing bottlenecks in the code, knowledge of user authentication and authorization between multiple systems, servers, and environments, ensuring programs are written to the highest standards, technical documentation, and the ability to collaborate on projects and work independently when required
+
+\end{quote}
+
+I just want some simple comp jobs.
+
+%LinkedIn 2
+
+\subsection[Avance Consulting]{Avance Consulting: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a Python Developer who has over 6 years working with Python, Django on linux environments professionally, previous experience designing and building APIs using python, and someone who has the experience of leading a project/product design from the back end.
+
+\end{quote}
+
+Sounds cool.
+
+%LinkedIn 3
+
+\subsection[Talentify.io]{Talentify.io: Software Engineer - Remote}
+
+\begin{quote}
+	About the job
+	
+	Design and implement UI and micro-services, telemetry solutions, and CI/CD pipelines
+	Collaborate with business and IT stakeholders to build product features
+	Create innovative solutions to improve the health and reliability of applications
+	Define coding standards and best practices
+	Coach and mentor other developers in the team
+
+\end{quote}
+
+Yeah, probably not
+
+\textbf{Update (2023-12-22):} Application rejected by email.
+
+%LinkedIn 4
+
+\subsection[Storm2]{Storm2: Applied Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are actively seeking an accomplished Applied Machine Learning Engineer to optimize our Machine Learning systems. The ideal candidate should possess strong statistical and programming skills, coupled with relevant experience in a Machine Learning role. Responsibilities include evaluating existing ML processes, enhancing the predictive automation capabilities of our AI software, and contributing significantly to a growing company. Reporting directly to the Head of Artificial Intelligence, this role involves a comprehensive set of responsibilities.
+
+\end{quote}
+
+Not storm 1, storm 2!
+
+%LinkedIn 5
+
+\subsection[Storm3]{Storm3: Staff Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	They are looking for a staff software engineer eager to grow their career alongside some serious veterans. You will have the opportunity to have true ownership as they build out our products. As an engineering leader, you will play a crucial role in product development, breaking down problems, inventing solutions, prototyping and working with the team to commercialize core technologies in complete products
+
+\end{quote}
+
+Not storm 2, storm 3
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Velaz Solar]{Velaz Solar: Solar Sales Specialist}
+
+\begin{quote}
+	About the job
+	
+	Whether you are providing one-on-one consultations or leading group workshops, your expertise and dedication paired with the best tech \& tools, support, and technology, will help us achieve our goal of creating a more sustainable future. If this sounds like the perfect opportunity for you, we encourage you to apply today!
+
+\end{quote}
+
+I wonder how I would be as a solar salesman.
+
+\textbf{Update (2023-12-15):} Messaged me on indeed about experience. I responded with answers. 
+
+%Indeed 2
+
+\subsection[Fidelity TalentSource]{Fidelity TalentSource: Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	Developing applications for electronic trading business. Supporting the applications for large business impact initiatives. Working with diverse groups as part of the development cycle!
+
+\end{quote}
+
+Uhg, offstie applications. 
+
+%Indeed 3
+
+\subsection[Boundless, Inc]{Boundless, Inc: Solar Sales Representative}
+
+\begin{quote}
+	About the job
+	
+	Our dynamic sales teams provide opportunity for upward and lateral career growth. Sales consultants are responsible for varying parts of the sales process, from qualifying sites and homeowners interested in solar energy, to consulting customers on solar options. Our customers rely on the Boundless Inc. brand for a top-quality experience, which starts with the sale.
+
+\end{quote}
+
+I wanted a software job. Still, this apparently starts at 8k per month. 
+
+%Indeed 4
+
+\subsection[Confidential]{Confidential: IT Applications Manager}
+
+\begin{quote}
+	About the job
+	
+	This position is responsible for management and support of a portfolio of applications and technology solutions. This role oversees the IT department's software development, integration, and IT business \& systems analyst efforts. This position ensures the company's core systems reflect the evolving needs of the company's business users. This position facilitates the interaction between IT development, Business Analyst staff, and the various business units across the organization. This position participates in the design, development, and maintenance of integration packages related to the company's core processing systems. Manages team and vendor partners including software developers, business analysts, web administrator, technical lead, and systems analyst staff.
+
+\end{quote}
+
+What's the big secret about the company name. 
+
+%Indeed 5
+
+\subsection[Confidential]{Confidential: Business Development Manager}
+
+\begin{quote}
+	About the job
+	
+	- Develop and implement strategic business development plans to achieve company goals and objectives
+	- Identify and pursue new business opportunities through market research, networking, and lead generation
+	- Build and maintain strong relationships with clients, understanding their needs and providing tailored solutions
+	- Conduct sales presentations and negotiate contracts with potential clients
+	- Communicate with sales leadership and VPs to build new RFQs
+
+\end{quote}
+
+Haha, hanover pa. I didn't realize that was an option in my searches. Still, would be funny to pursue. I wonder if it's UTZ.
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Sunco]{Sunco: video interview}
+
+I was a coward and left this until 4 in the morning. Also, this is the only thing for this day I'm doing before going to bed. Still, I did it, I'm uploading it now. It kinda sucks, but
+
+1) Tell me about a situation at work that showcases your work ethic and your professionalism.
+
+In my role as project manager at the Bayeux Group, we faced a tight deadline on an integral piece of data architecture for a client. The client had requested a sooner launch date for the software than originally planned. Recognizing both the importance of promptness for the client, and the realities of the project in question, I negotiated a new timeline while expanding the team in order to make that timeline a come to pass. The importance of this situation for me was both the sober assessment of what could be delivered, and the honest communication of that assessment to the stakeholders of the project. 
+
+2) Tell me about a time where you did not meet expectations for a client or a superior and what did you do about that.
+
+I was acting as a project manager for a construction company. They had a job in an area they had not previously done any work. Because it was a new area, the permits were filed incorrectly, an error I was not aware of until late in the project. It's important to note that I was acting under contract for the construction company -- professionally, they were my client. The project, however, was for a homeowner's renovation of their new residence. In the short term, the most lucrative option for the construction company would have been to string the homeowner along while we sorted out the permit issue. However, I made the decision to bring in another contractor to finish the project, which, while cutting into my client's profits, greatly expidited and simplified completion of the project, and ultimately left my client with a satisfied customer. I took responsibility for the permit issue and I wasn't assigned to that construction company again. I stand by the decisions I made. 
+
+3) If this season of your life had a mission what would it be and what steps would you take to accomplish it?
+
+I've spent a lot of my life learning a lot of different things. I have developed myself with the guiding belief that to build productive bridges between different domains and professions, you have to have some understanding what is on either side of the divide. My mission now is to put that theory to the test. I have the breadth, and now I want the depth. I want to focus on one profession, and use my breadth of knowledge to help my customers and help my team interface with the many other professions and domains of knowledge our roles will have us interacting with. 
+
+%Boost 2
+
+\subsection[Lockard \& Wechsler Direct]{Lockard \& Wechsler Direct: Direct message on indeed}
+
+What the title says. I sent them a message. It's quoted in the original entry.
+
+%Boost 3
+
+\subsection[Amalgamated Life]{Amalgamated Life: message via indeed}
+
+Yup
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[14 Dec: Short]{Long -- 2023-12-14} % Top level section
+
+day
+
+%LinkedIn 1
+
+\subsection[HCLTech]{HCLTech: Embedded engineer- C / MATLAB / Python}
+
+\begin{quote}
+	About the job
+	
+	HCLTech is a global technology company, home to 211,000+ people across 52 countries, delivering industry-leading capabilities centered around digital, engineering and cloud, powered by a broad portfolio of technology services and products. We work with clients across all major verticals including Financial Services, Manufacturing, Technology and Services, Telecom and Media, Retail and CPG, Life Sciences and Healthcare and Public Services. Consolidated revenues as of 12 months ending June 20, 2022 totaled \$11.8 billion. To learn how we can supercharge progress for you, visit hcltech.com
+
+\end{quote}
+
+No chance
+
+%LinkedIn 2
+
+\subsection[\textit{Mondo}]{\textit{Mondo}: AI Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	The ideal candidate will play a vital role in establishing seamless connectivity across diverse components within our Gen AI pipelines, optimizing workflows, and contributing to the development of front-end interfaces.
+
+\end{quote}
+
+Please, I just want to work
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%LinkedIn 3
+
+\subsection[Xyon Global]{Xyon Global: Software Engineer - Backend and API Architect}
+
+\begin{quote}
+	About the job
+	
+	The API Backend Engineer role will develop and deploy APIs on top of state-of-the-art generative AI models in healthcare (expertise in this area is a requirement). You will work with a team of passionate and talented individuals with a track record of successful startups dedicated to improving patient outcomes and reducing healthcare costs. At least 3+ years of recent (3 years) Healthcare experience is required. Candidates need this experience to be considered. 
+
+\end{quote}
+
+I'm so tired. Make it end. 
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%LinkedIn 4
+
+\subsection[Bloom]{Bloom: Software Engineer I}
+
+\begin{quote}
+	About the job
+	
+	Bloom the insurance industry's trusted growth partner, is looking for an experienced and dedicated individual to provide software development services and work with other IT colleagues and other Bloom departments in delivering new IT functionality, features, fixes, and client support. As a Software Engineer, you will have the opportunity to work in a multi-product environment in both individual and team settings. You will develop new software and support existing in-house software.
+
+\end{quote}
+
+I did not make a serious attempt at any of this, though I should have.
+
+%LinkedIn 5
+
+\subsection[Renaissance Learning]{Renaissance Learning: Software Engineer II}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a motivated Engineer to join an agile multi-disciplinary engineering team at Freckle. Play a key role in an impact driven culture and apply your ingenuity and creativity to make our team and company better. Learn continuously and help shape how we build and scale our highly available distributed SaaS platform used by millions of K-12 students every month worldwide.
+
+\end{quote}
+
+I want to sleep
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Bloomberg]{Bloomberg: ML Platform Engineer - Bloomberg Law}
+
+\begin{quote}
+	About the job
+	
+	The MLOps engineer will be part of the Platform Engineering group within BLAW that develops and supports cloud native solutions and tools to deploy and operate BLAW products at scale on public cloud (AWS) environments. The team focuses on implementing platform-as-a-service (PaaS) frameworks, tools and workflows to accelerate product development. As a MLOps engineer at Bloomberg Law, your mission is to design and build reliable and scalable cloud solutions to run diverse workloads on AWS. Our culture of diversity, intellectual curiosity, methodical problem solving and openness in a blameless environment are keys to our success. A good fit for our team is a person who is self-motivated, proactive, a good collaborator and comfortable with ambiguity. 
+
+\end{quote}
+
+Actually looks pretty cool.
+
+%Indeed 2
+
+\subsection[Eileen Fisher]{Eileen Fisher: eCommerce Tech Lead (Remote in U.S)}
+
+\begin{quote}
+	About the job
+	
+	The eCommerce Tech Lead will manage and optimize the eCommerce code, tools and deployment processes for the EILEEN FISHER eCommerce site. This individual will lead a team of external System Integrators and Salesforce Commerce Developers, manage sprint deliverables, review code to ensure it is efficiently written and ensure it fits into the overall architecture for a well-developed eCommerce site using Salesforce Commerce Cloud as well as write code to support sprint objectives. This individual must be able to balance their own specific development deliverables, while still providing leadership and oversight of the larger Development Team.
+
+\end{quote}
+
+I have no thoughts. It's too late. I need to stop this nonsense. 
+
+%Indeed 3
+
+\subsection[Weiss-Aug Surgical]{Weiss-Aug Surgical: Jr. Engineer | QE/CMM/Vision Programmer}
+
+\begin{quote}
+	About the job
+	
+	The Jr. Engineer | CMM/Vision Programmer will be responsible for the collection of data for first piece, in-process inspection, and/or tooling debug - tooling component measurement to drive process and continuous improvements.
+
+\end{quote}
+
+I want to sleep
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%Indeed 4
+
+\subsection[Clever Devices]{Clever Devices: Software Development Manager}
+
+\begin{quote}
+	About the job
+	
+	As a Manager, Software Engineering/Development, you will be responsible for leading team(s) of software engineers and team leads in the development of new features, enhancing existing features, application maintenance and support for one or more of Clever Devices’ products. A Software Engineering/Development Manager is expected to be hands-on during the development process with the ability to make code changes when necessary.
+
+\end{quote}
+
+I want to sleep
+
+%Indeed 5
+
+\subsection[Links Technology Solutions]{Links Technology Solutions: Data Scientist}
+
+\begin{quote}
+	About the job
+	
+	Links Technology Solutions is currently seeking an experienced Data Scientist to fill an opening with a pharma company.
+
+\end{quote}
+
+I want to sleep
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Velaz]{Velaz: Message exchange on indeed. }
+
+Title
+
+%Boost 2
+
+\subsection[Velaz]{Velaz: More messages exchanged}
+
+Title
+
+%Boost 3
+
+\subsection[Python Test]{Python Test on LinkedIn: Failed}
+
+That was emberassing. 
+
+%Boost 4
+
+\subsection[C++ Test]{C++ Test on LinkedIn: Failed}
+
+That was slightly less emberassing. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[15 Dec: Short]{Long -- 2023-12-15} % Top level section
+
+It's possible I should have included some off days in this affair. I'm getting burnt out trying to keep up with the pace. 
+
+%LinkedIn 1
+
+\subsection[Hallmark Global Technologies Ltd]{Hallmark Global Technologies Ltd: Software Engineer(AI and ML)}
+
+\begin{quote}
+	About the job
+	
+	You'll have the opportunity to spearhead the development of robust and efficient systems to power the company's active learning platform. You'll also work cross-functionally with Product Designers, ML Scientists, and external stakeholders. This is a great time to hone your skills in translating user requirements into well-designed solutions crucial to shaping the future of AI-powered applications.
+
+\end{quote}
+
+They listed the salary as 10k, ehich would be absurd. 
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%LinkedIn 2
+
+\subsection[Sky Consulting Inc]{Sky Consulting Inc: Machine Learning Engineer (MLops)}
+
+\begin{quote}
+	About the job
+	
+	5+ years of relevant experience in MLE.
+    AWS experience
+    Good Python skills
+    Dev ops experience- CICD
+    Good with API development and general DevOps
+    Proven experience in MLOps in general and Kubernetes.
+    Good experience with AWS Sagemaker and ECS.
+
+\end{quote}
+
+Sure, whatever
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%LinkedIn 3
+
+\subsection[Opentensor Foundation]{Opentensor Foundation: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Senior Python backend developer for OpenTensor.
+
+\end{quote}
+
+Ah, senior. I just want something entry level. 
+
+%LinkedIn 4
+
+\subsection[ASK Consulting]{ASK Consulting: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Python
+    Django
+    Python version 2.7 to 3.10+
+
+\end{quote}
+
+This would be great.
+
+\textbf{Update (2023-12-16):} Sent a self-identification form.
+
+%LinkedIn 5
+
+\subsection[ShortList Recruitment Limited]{ShortList Recruitment Limited: AI/ML Engineer}
+
+\begin{quote}
+	About the job
+	
+	The AI/ML Engineer will be an integral part of their team. You will be responsible for building out, maintaining, and optimizing the ML systems that power the AI, as well as the core infrastructure, data pipelines and improvement features. You will have the autonomy to work on the full end-to-end pipeline alongside a team of Researchers, Product and Software Engineers, from research discovery to deployment, dealing with real-world, high stake problems. 
+
+\end{quote}
+
+Beyond me, but I'm tired. I really need to do these earlier in the day.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Fusion Solar Energy]{Fusion Solar Energy: Direct Sales Manager}
+
+\begin{quote}
+	About the job
+	
+	As a Solar Sales Representative, you will be responsible for promoting and selling solar energy solutions to residential and commercial customers. You will play a crucial role in driving the adoption of solar technologies, reducing carbon footprints, and contributing to the transition to sustainable energy. This role requires a dynamic individual with excellent communication skills, a strong understanding of solar technology, and a passion for environmental sustainability.
+
+\end{quote}
+
+I don't know why I keep going for these. Sales would be good experience, though.
+
+\textbf{Update (2023-12-22):} Application rejected by email. 
+
+%Indeed 2
+
+\subsection[MG Concepts]{MG Concepts: Design Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are looking for an innovative individual with SolidWorks \& CAM experience, that can develop and maintain solid models, detail drawings, and other documentation to support product design and manufacturing processes.
+
+\end{quote}
+
+This isn't even close. I thought the job title meant something else.
+
+%Indeed 3
+
+\subsection[Heady]{Heady: Technical Lead}
+
+\begin{quote}
+	About the job
+	
+	The ideal candidate will be responsible for guiding and overseeing the technical aspects of projects from conception to completion. You will work closely with a team of developers, designers, and project managers to ensure the successful delivery of software solutions that align with our clients' objectives. The Technical Lead will be expected to provide technical leadership, mentorship, and hands-on development expertise to drive the team towards excellence.
+
+\end{quote}
+
+I might be able to do this... but not really.
+
+%Indeed 4
+
+\subsection[Backstage AV]{Backstage AV: Lead AV Home Automation Tech / Project Manager / Programmer}
+
+\begin{quote}
+	About the job
+	
+	We are looking for an experienced AV installer to join our team. Someone who can wear many hats, take lead, and collaborate. Someone who can contribute to our growth, someone who likes to grow themselves. We like to invest back in to our team, by sending them to training when applicable.
+
+\end{quote}
+
+Seems cool
+
+%Indeed 5
+
+\subsection[OEC Group]{OEC Group: Digital Freight Project Manager}
+
+\begin{quote}
+	About the job
+	
+    5-10 years of experience leading multiple projects across different business units within the freight forwarding/logistics industry.
+    Strong quantitative, analytical, and critical thinking skills with a demonstrated knowledge of Scrum and SDLC Methodologies.
+    Quick learner who is interested in digital transformation on different aspects of the business in international logistics, transportation, and supply chain.
+
+
+\end{quote}
+
+They don't want me, but I bet I could do this job. 
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Machine Learning Test]{Machine Learning Test on LinkedIn: Failed}
+
+That was bad. 
+
+%Boost 2
+
+\subsection[Cognitive Assessment]{Cognitive Assessment on Crossover: 5/6 stars}
+
+I feel like I should have done better. Definitely good that I'm doing more stuff. I need to keep the brain moving. 
+
+%Boost 3
+
+\subsection[Indeed Resume Snan]{Indeed Resume Snan}
+
+\begin{quote}
+	Content
+	3
+
+    Employers like to understand work gaps or time off between jobs longer than 3 months. If you're comfortable, add time you've spent away from work just like you would add a job, and include a brief description explaining how you spent the time focusing on things that are important to you, such as family care, education, or travel.
+    Details can help employers to understand the impact of your work. Share how your work contributed to success or positive outcomes in your previous roles. Try adding details (size, time, amounts, or percentages) when writing bullets, like this: "Saved \$5,000 in operating costs in the first 60 days by repairing and servicing equipment"
+    Current word count: 164 Aim for 475-600 words in your resume. Try to include more details about your skills, qualifications, and work experience. Employers like to know more about how you contributed and what you accomplished in your previous roles. When writing your resume, use keywords you notice in jobs you're interested in that also speak to your current qualifications or previous work experience. This is a great way to align your resume to jobs that interest you.
+
+	Grammar and spelling
+	2
+	Beta
+
+	This new tool provides spelling and grammar feedback. Help us improve our tool by dismissing any recommendations that don't apply to you.
+	Grammar
+	2
+
+    The singular proper name 'Linux' must be used with a third-person or a past tense verb.Software Developer <p>Undergraduate Research</p><p>• Employed Internuclear in Python environment to construct machine learning classifiers used in analyzing</p><p>effectiveness of -Differential Privacy data protections</p><p>• Engineered Python/NumPy application to extract and present experiment results across seven variables</p><p>• Ran artificial intelligence attacks using university Linux cluster against -Differentially Private data</p>
+    Suggested alternatives:clusters, clustered
+    This noun or verb <suggestion>problem-solving</suggestion> is spelled with a hyphen.Skills Visual Basic Photoshop Communications C\# Microsoft Office Linux Organizational Skills Bash problem solving Python Agile Software Development AutoCAD Shell Scripting Teaching JavaScript C/C++ Agile Project Management Typing Public Speaking CSS Quickbooks Powerpoint Java LaTeX Unity SPICE Git Computer Languages Filing Gimp
+    Suggested alternatives:problem-solving
+
+\end{quote}
+
+%Boost 4
+
+\subsection[Indeed Sales Assessment]{Indeed Sales Assessment: It seemed straightforward}
+
+I wish I could see my score.
+
+%Boost 5
+
+\subsection[message to the confidential job]{message to the confidential job: Business Development Manager role}
+
+\begin{quote}
+
+	I trust this message finds you well. I am writing to express my continued interest in the Business Development position at, well, you know. Having recently submitted my application, I remain enthusiastic about the opportunity to contribute my strategic business development skills to your esteemed organization. The prospect of developing and implementing strategic business plans, identifying new opportunities, and building lasting client relationships resonates strongly with my background in B2B sales. With over ten of experience, I have a proven track record of successfully pursuing and closing deals, achieving sales targets, and collaborating effectively with sales leadership to generate new RFQs. Throughout my career, I have honed strong customer relationship management skills, allowing me to understand client needs and provide tailored solutions. Thank you for considering my application. I am eager for the opportunity to discuss in greater detail how my experiences align with the needs of whatever company it is I'm applying to and how I can contribute to the continued success of your business development initiatives. I appreciate your time and consideration and look forward to the possibility of joining your dynamic team.
+
+\end{quote}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[16 Dec: Short]{Long -- 2023-12-16} % Top level section
+
+I don't know what to make my next five thing. I think the next five should be short coding challenges. I really need to start brushing up my skills. 
+
+%LinkedIn 1
+
+\subsection[Algo Capital Group]{Algo Capital Group: Machine Learning Engineer C++/ Python}
+
+\begin{quote}
+	About the job
+	
+	My client is a world-class quantitative investment firm renowned for its cutting-edge research, innovation, and exceptional performance in financial markets. With a commitment to pushing the boundaries of quantitative finance, we are seeking a talented and experienced C++/Python Machine Learning Engineer to join our dynamic team of experts.
+
+\end{quote}
+
+Hey, I've applied to this already. New listing, new half-assed attempt.
+
+%LinkedIn 2
+
+\subsection[Molathati Technology Solutions]{Molathati Technology Solutions: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+	
+	Ideal candidate would be full stack and able to flex between front and back end development for AI solutions
+
+	Must have experience in core Azure services as well as familiarity with Azure Cognitive and Generative AI (GenAI) services (Keep in mind if you see ChatGPT, ask them to summarize their GenAI exp) 
+
+\end{quote}
+
+Approachable.
+
+\textbf{Update (2023-12-19):} Application rejected by email.
+
+%LinkedIn 3
+
+\subsection[YASH Technologies]{YASH Technologies: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	We are looking for a Python Developer role skillset, to support an home grown application, that is fully Python based. So having good software development/ scripting in Python, and its associated stack, such as WxPython or similar IDE, Flask, CONDA for package distribution, some PowerShell scripting, work with APIs, some basic experience on working with Databases such as MySQL, Oracle, understanding of OAUTH protocols, basic networking for authentication authorizations, client/server networking, and Azure DevOps for software deployments.
+
+\end{quote}
+
+I'm a python developer!
+
+%LinkedIn 4
+
+\subsection[Algo Capital Group]{Algo Capital Group: Fully Remote Machine Learning Engineer C++/ Python }
+
+\begin{quote}
+	About the job
+	
+	As a C++/Python Machine Learning Engineer, you will play a pivotal role in developing and implementing sophisticated machine learning models and algorithms to optimize our trading strategies. You will collaborate with a team of quantitative researchers, data scientists, and software engineers to create innovative solutions that drive our competitive edge in the financial industry.
+
+\end{quote}
+
+I think I've applied here twice already.
+
+%LinkedIn 5
+
+\subsection[Lorvin Technologies Inc]{Lorvin Technologies Inc: Artificial Intelligence Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking talented and experienced AI/ML Engineers to join our team. As an AI/ML Engineer, you will play a crucial role in developing cutting-edge solutions leveraging Azure, OpenAI, and Copilot technologies. Your expertise will be key in building and deploying AI and ML models, form recognition systems, and code generation capabilities.
+
+\end{quote}
+
+Above me. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Clever Devices]{Clever Devices: Project Engineer}
+
+\begin{quote}
+	About the job
+	
+	The Project Engineer I is responsible for leading the deployment of complete Systems that include Clever Devices products combined with complementary technologies, including deployment of hardware products and interfaces, to provide a holistic solution that meets customer requirements.
+
+	The Project Engineer I works closely with the Project Engineer II, the Systems Engineer and the SE Team Lead to analyze the customer requirements and required functionality early in the project cycle; support the customer design reviews, conduct the Factory Acceptance Testing with the Customer and lead the subsequent deployment at the Customer site. The Project Engineer I participates in the System Acceptance Testing with the Lead Project, Systems Engineer and/or SE Team Lead.
+
+\end{quote}
+
+They want more experience, but they don't deserve more experience for what they're offering, so I'm going to apply anyway.
+
+%Indeed 2
+
+\subsection[DCI Solutions]{DCI Solutions: Data Pipeline Engineer}
+
+\begin{quote}
+	About the job
+	
+    Serves as a Data Pipeline Engineer
+    Ensure that customers work with updated and accurate data in Foundry
+    Be the first to respond to data health failures on key pipelines
+    Read code to identify fixes and increase stability of data pipelines
+    Work alongside pipeline engineers from other customer accounts
+    Maintain and build schedules so that pipelines run effectively
+    Set up and maintaining health checks on different pipelines
+    Respond to, triage, and debug pipelines when there is a problem
+    Read and write code changes and/or modify monitoring set-up
+    Know and understanding how to navigate the pipelines and documentation
+    Follow SOPs to contact other teams/providers if data is incorrect
+    Communicate outages with the end users of a pipeline
+    Contribute to and monitor tooling improvements (where feasible)
+
+\end{quote}
+
+I have no thoughts. 
+
+%Indeed 3
+
+\subsection[Primary Talent Partners]{Primary Talent Partners: Rapid Application Developer}
+
+\begin{quote}
+	About the job
+	
+	This is a highly visible front-office facing role, where you will work with Trading, Quant Research and other teams from the middle office, back office and operations on various initiatives. 
+
+\end{quote}
+
+I wonder what this role would be like. 
+
+%Indeed 4
+
+\subsection[Pasona N A, Inc]{Pasona N A, Inc: CRM (Microsoft dynamics) Developer}
+
+\begin{quote}
+	About the job
+	
+	(Engineer Activity)
+
+    Define technical/non-functional requirements of customer's business system
+    Design, develop, plan, and deploy system changes and/or code, while discussing technical aspects with outsource vendors
+    Estimate and plan efforts necessary for system change and code deployment
+    Troubleshoot system error and/or software bugs, and provide workarounds.
+    Propose reasonable solutions to root cause of system error and/or software bugs.
+    Design system behavior or use case scenario and develop program code to meet the requirement
+    Provide necessary documents for effective support
+    Acquire and apply knowledge of new technology
+    Collaborate with senior engineers to identify and solve variety of problems
+    Participates in multi implementation projects or customer supports
+    Follow project schedules (WBS)
+    Follow support service plan for maintenance support
+    Performs system tests (integration test, regression test, performance test)
+    Proposes improvements of client's business system
+    Follow or assist Grade 3 engineer for documenting, configuring, and testing tasks in project or support
+
+
+	(Report Activity)
+
+    Record his/her daily work logs every day in the work log system, such as Sprint back Log and SharePoint
+    Analyze actual versus forecast of assigned support cases and assigned projects.
+    Analyze the situations of assigned support cases or assigned projects and come up with improvement plans or solutions
+    Prepare and report for his/her line manager regarding statuses of assigned projects/support cases.
+    Come up with improvement plans or solutions based on the above analysis and execute them arranging stakeholders by him/herself
+    Prepare and report for his/her line manager regarding statuses of assigned projects/support cases
+
+
+	(Other)
+
+    Value teamwork covering absence of teammates and supporting them
+    Shift work time as directed by supervisor or manager
+    Comply with laws, regulations, Employee Handbook and the operation rules defined in the assigned teams
+    Backup and educate Grade1 engineers to accumulate ERP system knowledge or customer support
+    Seeks constant improvement, more efficient and less expensive ways and means in work processes.
+    Performs special projects and other miscellaneous duties as assigned by manager and other senior management.
+    Maintains high ethical standards in the work place.
+    Reports all irregular issues and problems to management for solution.
+    Maintains good communication with other managers, staff \& outside contacts.
+    Complies with all company policies and procedures.
+    Responsible for maintaining a clean and safe working area.
+    Maintains high ethical standards in the workplace.
+
+
+\end{quote}
+
+CRM could be interesting
+
+%Indeed 5
+
+\subsection[ZTH Tech]{ZTH Tech: Application Integration Engineer}
+
+\begin{quote}
+	About the job
+	
+	Oversees design and development of internet accessible database for traffic engineering applications; Meets with potential users and customers to determine requirements; Transfers requirements into technical specifications; Supervises development and testing of software's; Markets products and services. Should have experience with database/protocol \& Internet Applications. 
+
+\end{quote}
+
+This is on the site, so I might follow up here: Send resume to Human Resources, ZTH Tech,1090 King Georges Post Road, Suite 508, Edison, New Jersey 08837.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[ASK Consulting]{ASK Consulting: Self identification form}
+
+Well, it's a kind of follow-up.
+
+%Boost 2
+
+\subsection[Fusion Solar]{Fusion Solar: Followup message}
+
+\begin{quote}
+	I hope this message finds you well. I wanted to express my continued enthusiasm for the Solar Sales Representative position at Fusion. The opportunity to contribute to the adoption of solar technologies aligns seamlessly with my passion for environmental sustainability and my background in sales. I am eager for the chance to discuss how my communication skills and understanding of solar technology make me a strong fit for this role. Thank you for considering my application, and I look forward to the possibility of contributing to Fusion's mission.
+\end{quote}
+
+%Boost 3
+
+\subsection[Backstage AV]{Backstage AV: follow up message}
+
+\begin{quote}
+	Hello, I feel like I'd be a great fit for this position and would love to schedule an interview to talk more about my experience. While I am not an A/V Installer, I have over ten years of experience with electrical systems installation and repair. I have strong programming and project management experience. I've worked on and lead teams, and I'm not afraid to get my hands dirty during and install. I could go on but I'd like to save something for a face to face. I hope to hear from you soon. 
+\end{quote}
+
+%Boost 4
+
+\subsection[Anchora]{Anchora: Default message}
+
+Just used one of the default indeed messages. 
+
+%Boost 5
+
+\subsection[Trinity Solar Careers]{Trinity Solar Careers: SQL Database Developer}
+
+\begin{quote}
+	About Job:
+
+	We are seeking a database developer skilled at writing SQL code, with a strong SQL Server background and with three or more years working as a database developer. Candidate should have experience working on complex technical or architectural design and be skilled in developing database objects and structures for data storage, retrieval and reporting.
+
+\end{quote}
+
+I just did one more Indeed job because I couldn't think of another boost. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Code 1
+
+\subsection[FizzBuzz]{FizzBuzz: Code Academy}
+
+https://www.codecademy.com/resources/blog/20-code-challenges/
+
+\begin{verbatim}
+	for i in range(1, 101):
+    fb = ""
+    if not i % 3:
+        fb += "Fizz"
+
+    if not i % 5:
+        fb += "Buzz"
+
+    if fb:
+        print(fb)
+    else:
+        print(i)
+\end{verbatim}
+
+I think this turned out quite tidy. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[17 Dec: Short]{Long -- 2023-12-17} % Top level section
+
+I was out today, so I'm doing this on the 19th. 
+
+%LinkedIn 1
+
+\subsection[Jobot]{Jobot: 100\% Remote Software Engineer - Mobile and Web}
+
+\begin{quote}
+	About the job
+	
+	Our client is a software development consultancy focused on making a positive impact on the people we work with - our clients, our coworkers and our community. We create enterprise-level custom software products, lead organizations through digital transformation, and consult on how technology can improve efficiency and solve complex business problems.
+
+\end{quote}
+
+I actually did an application on Jobot for this one. 
+
+%LinkedIn 2
+
+\subsection[Jobot]{Jobot: Remote Software Engineer - Mobile and Web}
+
+\begin{quote}
+	About the job
+	
+	Our client is a software development consultancy focused on making a positive impact on the people we work with - our clients, our coworkers and our community. We create enterprise-level custom software products, lead organizations through digital transformation, and consult on how technology can improve efficiency and solve complex business problems.
+
+\end{quote}
+
+This appears to be the same as the one above, but in a different city. 
+
+%LinkedIn 3
+
+\subsection[hushh.ai]{hushh.ai: AI Engineer and Researcher}
+
+\begin{quote}
+	About the job
+	
+	We're looking for fresh, driven graduates from top universities globally - individuals who are not just looking for a job, but a mission. Join us in creating solutions that empower users with their own data, making it universally accessible, valuable, and working tirelessly for them.
+
+\end{quote}
+
+This looks cool.
+
+%LinkedIn 4
+
+\subsection[TBD]{TBD: Machine Learning Engineer (Systems), Risk and Trust}
+
+\begin{quote}
+	About the job
+	
+	TBD's Risk and Trust team is on the mission to build world-class risk and trust management services to enable a truly open and decentralized financial ecosystem. We are looking for a skilled Machine Learning Engineer to help create and maintain our model development infrastructure. The ideal candidate will have a strong background in machine learning, software engineering, and cloud-based infrastructure, and will be responsible for designing, building, and optimizing the tools and systems that enable our team to develop, test, and deploy state-of-the-art machine learning models efficiently and effectively to further our mission of economic empowerment globally and solve real world problems with decentralized financial products.
+
+\end{quote}
+
+The company is To Be Determined? Apparently it's a sister company to Square. 
+
+%LinkedIn 5
+
+\subsection[Creative Global Consulting]{Creative Global Consulting: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Python Developer to join their team. As a Python Developer, you will play a crucial role in providing integrated and deployed support across Enterprise Networks. The organization is responsible for offering flexible but coordinated services, such as Application Development, System Security, System Engineering, End User Support, and more, to various departments. Your expertise is highly valued since the mission and customer rely on your contributions.
+
+\end{quote}
+
+They want someone flexible, and I'm flexible. No specific requirements, which is nice. 
+
+\textbf{Update (2023-12-22):} Application rejected by email.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Trinity Solar Careers]{Trinity Solar Careers: AI Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	Trinity Solar is seeking a talented and motivated AI/ML Engineer to join our dynamic team. As an AI/ML Engineer, you will play a key role in developing cutting-edge machine learning models and implementing AI solutions to solve complex problems. You will have the opportunity to work on exciting projects and contribute to the growth of our AI capabilities.
+
+\end{quote}
+
+This numbers thing is getting disheartening. 
+
+\textbf{Update (2023-12-19):} Application failed on Indeed.
+
+%Indeed 2
+
+\subsection[Macquarie Group Limited]{Macquarie Group Limited: Business Management Analyst}
+
+\begin{quote}
+	About the job
+	
+	As an Analyst, you will perform in-depth analysis of the Macquarie Asset Management platform by identifying historical trends and key performance metrics to inform strategic planning and business decision-making. You will utilize financial data and understanding of the business to build business cases supporting strategic growth initiatives and create management presentations synthesizing quantitative and qualitative insights for senior leadership. Working closely with senior management, you will work to refine strategy and track progress of key initiatives, as well as prepare briefing notes for senior engagements.
+
+\end{quote}
+
+Sounds amusingly douchey.
+
+%Indeed 3
+
+\subsection[New York Life]{New York Life: Accelerated Path to Management}
+
+\begin{quote}
+	About the job
+	
+	Are you looking for a job where you can use your experience to propel your career into management? At New York Life, we will invest in you from the start to help you learn and grow as a financial professional first. We’ll train you in valuable skills, such as marketing, business development, and customer relationship management, and provide you with the tools you need to further your career. Then we’ll train you and provide you with access to the tools you need for a career in management.
+
+\end{quote}
+
+Actually looks a little cool. I wish I had gotten to this earlier in the day, I might have considered prepping a new res for this role. 
+
+%Indeed 4
+
+\subsection[Pasona N A, Inc.]{Pasona N A, Inc.: Associate Software Engineer -54087}
+
+\begin{quote}
+	About the job
+	
+    Manage the Software Application Configuration, Development, Testing, Deployment and On-going Maintenance to meet customers’ requirements as an Associate Software Engineer.
+    Provide technical support and troubleshooting to end-users and/or Tier-1 support staff.
+    Execute assigned tasks according to the defined schedules and timely report to project managers.
+    Support and collaborate with project managers to proceed with projects smoothly, to minimize costs for customers and maximize sales profitability.
+    Properly convey customer requests to project managers and/or the management, and provide problem solving as an Associate software engineer.
+    Collaborate with other Software Engineers and/or outside vendors to meet project objectives.
+    Become well familiar of Application and Service vendors including their business circumstances.
+    Keep up to date with all-over/industry IT trends, conduct research, and support project managers to promote Proof of Concept as needed basis to develop beneficial solutions for customers.
+    Other tasks assigned by the manager.
+
+
+\end{quote}
+
+Omg, something that's not senior and a million years of xp!
+
+%Indeed 5
+
+\subsection[Clever Devices]{Clever Devices: Product Specialist}
+
+\begin{quote}
+	About the job
+	
+	The Product Specialist is a junior level position responsible for working closely with Product Managers, Product Engineers, Project Deployment and Strategic Account Managers to assist in growing/developing new business opportunities and the facilitation of the Agile Development Process for current and potential new projects. The Product Specialist is responsible for providing pre-sales services including system engineering, preliminary requirements/scope development, user interface mockups, technical product presentations, training, troubleshooting and technical account management.
+
+\end{quote}
+
+Man, a number of things I could actually do coming at me today. Oh, and it doesn't even have an option for a cover letter. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Jobot]{Jobot: Remote Software Engineer}
+
+Did the Jobot easy apply, which is not as easy as the LinkedIn easy apply. 
+
+%Boost 2
+
+\subsection[Crossover]{Crossover: Fuck Crossover}
+
+Super weird company. I don't trust them and I don't want anything further to do with them. 
+
+%Boost 3
+
+\subsection[Jobot]{Jobot: Another folllow-up}
+
+Finishing another app on their website. 
+
+%Boost 4
+
+\subsection[Macquarie Group Limited]{Macquarie Group Limited: Business Management Analyst}
+
+Applied on their website. That really sucked. I hate this company already. Really shitty site design, and they wanted me to enter every class I've ever taken. They can, of course, eat shit on that. Give me an interview and I'll consider it. Better yet, read my CV which has all that info already. 
+
+%Boost 5
+
+\subsection[New York Life]{New York Life: Accelerated Path to Management}
+
+Wrote a cover letter for this position
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Code 1
+
+\subsection[Random Number List Generator]{Random Number List Generator: Me, prepping for another challenge}
+
+\begin{verbatim}
+	#include <iostream>
+	#include <stdlib>
+
+	using namespace std;
+
+
+	int* listGen(){
+		srand(time(nullptr));
+		static int rndList[100];
+		for (int i = 0; i < 100; i++){
+			srand(seed);
+			seed = rand();
+			rndList[j] = (seed % 100) + 1;
+		}
+		return rndList;
+	}
+
+
+	int main() {
+		int* ptr = listGen();
+		for (int i = 0; i < 100; i++){
+			cout << ptr[i] << " ";
+		}
+		return 0;
+	}
+\end{verbatim}
+
+%Code 2
+
+\subsection[BST Insert]{BST Insert}
+
+\begin{verbatim}
+	int insert(Node* n, int v){
+
+    Node *newNode, d;
+    newNode = &d;
+    (*newNode).val = v;
+    (*newNode).count = 1;
+
+    int err = 0;
+
+    if ((*newNode).val < (*n).val){
+        if((*n).left){
+            err = insert((*n).left, (*newNode).val);
+        }else{
+            (*n).left = newNode;
+        }
+    }else if ((*newNode).val == (*n).val){
+        (*n).count++;
+        return 0;
+    }else if ((*newNode).val > (*n).val){
+        if((*n).right){
+            err = insert((*n).right, (*newNode).val);
+        }else{
+            (*n).right = newNode;
+        }
+    }else{
+        return 1;
+    }
+    return err;
+}
+\end{verbatim}
+
+I think this turned out to be fairly tight code. It's good to be working in c++ again. Fairly challenging jumping back in with pointers right away, but wasn't as bad as I was expecting. I don't know if this is actually working, though, so I'll be wanting some kind of traversal. I'm not sure how best to depict it in a cout format. I can look it up. I can also have it generate code for latex or something. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[18 Dec: Oops]{It's been awhile sinde I wrote a title -- 2023-12-18} % Top level section
+
+Fuck today.
+
+%LinkedIn 1
+
+\subsection[Evolve Group]{Evolve Group: Algorithm Engineer}
+
+\begin{quote}
+	About the job
+	
+	Are you a seasoned software engineer seeking a new frontier for your technical prowess? Are you intrigued by the prospect of joining a dynamic Hedge Fund, where innovation meets finance, and where top tech engineers flourish? If so, this is the right opportunity for you!
+
+	This hedge fund, headquartered in New York with a global presence and known for its advanced technology and data-driven approach to investing, has achieved exceptional organic growth.
+	
+	Renowned for their outstanding reputation, they have attracted and assembled a team of the brightest minds, creating a thriving collaborative culture that enables them to thrive in any market environment.
+
+\end{quote}
+
+0.5-1.5 million, and they don't list any qualifications. Hmmm.
+
+%LinkedIn 2
+
+\subsection[Precision Technologies]{Precision Technologies: Generative AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	The ideal candidate should have an advanced degree in computer science/IT/IS/CIS, engineering or related fields, and demonstrable experience/Knowledge or interested to lean Gen AI To start their career in AI research, particularly generative AI, please reach me out on sridevi@ptcit.com for more details
+
+\end{quote}
+
+Ooo, I really like this one. I want to get started in AI, and this is what they are describing. Imma follow up via email.
+
+%LinkedIn 3
+
+\subsection[VanderHouwen]{VanderHouwen: Python Developer}
+
+\begin{quote}
+	About the job
+	
+	Our client is seeking a Chatbot Engineer to assist their organization. We are looking for innovative, creative developers who want to be part of making the company better. You should be comfortable coding in a variety of environments and enjoy learning new ones while able to appreciate collaboration with technical and business teams alike.
+
+\end{quote}
+
+Eh, maybe.
+
+%LinkedIn 4
+
+\subsection[Gradient Zero]{Gradient Zero: Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a Machine Learning Software Engineer to work collaboratively with our highly talented team to further our research in generative adversarial networks (GANs) and related methods for generating content. The ideal candidate has experience integrating TensorFlor based deep learning models into production pipelines. Candidates must be able to develop and maintain native TensorFlow functions and implement extensible, modular training and inference architectures to enable rapid test and verification of ideas and potential improvements to algorithms. Candidates must have strong programming skills in Python, Fluency with TensorFlow 2.x, and previous experience working with a team of engineers to productize offerings.
+
+\end{quote}
+
+AI!
+
+%LinkedIn 5
+
+\subsection[Turtle Rock Studios]{Turtle Rock Studios: AI Engineer}
+
+\begin{quote}
+	About the job
+	
+	At Turtle Rock, we make the games we want to play. We're dedicated to providing a collaborative environment where our team members feel empowered with the creative freedom to contribute and grow. While we are based in Orange County, CA, we support flexible work arrangements ranging from in-studio, hybrid, to fully remote throughout North America. Join our award-winning game development team and help create our next AAA title.
+
+\end{quote}
+
+Game AI! Though I fucked it up -- I hit apply before putting in a cover letter. 
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[New Jersey Institute of Technology]{New Jersey Institute of Technology: Asst/Assoc/Full Prof. in Quantum Computing and Engineering}
+
+\begin{quote}
+	About the job
+	
+	The Helen and John C. Hartmann Department of Electrical and Computer Engineering (ECE) at the New Jersey Institute of Technology (NJIT) invites applications for a tenure-track position at the Assistant/Associate or Full Professor level in the areas of Quantum computing, High-Performance Quantum Computing, Quantum communication, Quantum Information Science, Quantum sensors and devices, and application of quantum computing and algorithms. 
+
+\end{quote}
+
+Me as a professor. Fuck.
+
+%Indeed 2
+
+\subsection[Triunity Software]{Triunity Software: Jr AI Developer/ Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a talented and innovative AI Developer who can join our team and lead the development of an AI-powered graphics design tool. In this role, you will be responsible for creating an intuitive, cutting-edge design tool that leverages artificial intelligence to empower designers, artists, and creative professionals to produce stunning visual content more efficiently. 
+
+\end{quote}
+
+Looks okay
+
+%Indeed 3
+
+\subsection[Infoorigin inc]{Infoorigin inc: AI/ML Python Developer}
+
+\begin{quote}
+	About the job
+	
+    The client is looking to get talent with skills on Al/ML with Python \& LLM. MS is on the journey of implementing use cases with AI tech .
+    In this particular case the client works in Digital Business automation.
+
+\end{quote}
+
+They want an ms. Not sure why this is showing up in entry level stuff.
+
+%Indeed 4
+
+\subsection[Heir8fied]{Heir8fied: Software Engineer AI\_Computer Vision}
+
+\begin{quote}
+	About the job
+	
+	We are currently seeking talented and motivated individuals to join us for a full-time position with our dynamic team. As a key member, you will have the opportunity to contribute to various projects critical to the development and success of our platform. The ideal candidate should possess a solid knowledge base as a full-stack developer with a background in cybersecurity.
+
+\end{quote}
+
+I really did not even try on this one.
+
+%Indeed 5
+
+\subsection[Clari]{Clari: Staff Machine Learning Platform Engineer}
+
+\begin{quote}
+	About the job
+	
+	Clari's Revenue platform gives forecasting accuracy and visibility from the sales rep to the board room on revenue performance - helping them spot revenue leak to answer if they will meet, beat, or miss their sales goals. With insights like this, no wonder leading companies worldwide, including Okta, Adobe, Workday, and Zoom use Clari to drive revenue accuracy and precision. We never get tired of our customers singing our praises because it fuels us to help them continue to achieve remarkable. The next generation of revenue excellence is here…are you ready to achieve remarkable with us? 
+
+\end{quote}
+
+Look, it's another application.
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[Precision Technologies]{Precision Technologies: Generative AI Engineer}
+
+Emailed the recruiter directly: 
+
+\begin{quote}
+	Dear Ms. Sridevi,
+
+	I am very interested in the Generative AI Engineer position. I think I would be a great fit and I'm going to go through point by point why, hopefully giving you a sense of who I am along the way.
+
+	I have a bachelor's degree in computer science and I've done machine learning research in the past. I'm strongly interested in the whole field of artificial intelligence, and I want to explore it further to learn where in that field I could best fit.
+
+	I have strong problem solving skills. As I mentioned, I have machine learning research experience, specifically using machine learning to test the limits of differential privacy. I've also been involved in the launch and growth of several small businesses -- roles which were almost exclusively problem solving, each in their own way.
+
+	I am experienced in both Python and SQL. My research was implementing machine learning models in python using SciKitLearn and Jupyter notebooks. In the business world, I've designed and implemented SQL databases for corporate operational data using MariaDB, Python, Django, and JavaScript.
+
+	My soft skills come most demonstrably from my business experience. I've worked on teams; I've organized and led teams, and I've worked independently. I've done high-end contract work for customers who demanded attention to detail in every regard. Your ideal candidate should be comfortable working in a dynamic environment, and I have happily operated in spaces where my role was in constant flux.
+
+	For these reasons and more, this role and I would be a perfect fit for one another, and I hope you'll consider me a strong candidate.
+
+	Yours sincerely,
+
+
+	J. Elliot Miller
+
+\end{quote}
+
+%Boost 2
+
+\subsection[Pasona]{Pasona N A, Inc.: Associate Software Engineer -54087}
+
+A cover letter that I actually contributed a bit to.
+
+%Boost 3
+
+\subsection[Triunity Software]{Triunity Software: Jr AI Developer/ Engineer}
+
+cover letter
+
+\begin{quote}
+	I am writing to express my strong interest in the AI Developer position at Triunity Software, as advertised. With a proven track record of Python programming, data science, and machine learning experience spanning nearly ten years, I am excited about the opportunity to lead the development of an AI-powered graphics design tool that pushes the boundaries of creativity and efficiency.
+
+	In my previous role as a Project Manager at The Bayeux Group, I successfully implemented machine learning algorithms into various projects, demonstrating my ability to collaborate with development teams to integrate AI seamlessly. My experience extends to AI model training, where I have fine-tuned models for tasks such as image recognition, style transfer, and automated design suggestions, aligning perfectly with the responsibilities outlined for this role.
+
+	One of my key strengths lies in algorithm implementation, particularly in the realm of deep learning. I have a proven track record of implementing innovative algorithms creative design features. My commitment to optimizing tool performance ensures fast and efficient operations, even with large files and complex designs.
+
+	Throughout my career, I have valued stakeholder feedback as a crucial element in the project lifecycle. I am adept at gathering insights from users and integrating feedback to continuously enhance the functionality of AI-powered tools. My dedication to creating clear and comprehensive documentation for both users and developers, including guides and tutorials on utilizing AI features, ensures a seamless user experience.
+
+	Thank you for considering my application. I am enthusiastic about the opportunity to contribute to Triunity Software's vision and look forward to discussing how my skills align with the requirements of the AI Developer position.
+\end{quote}
+
+%Boost 4
+
+\subsection[JS Skimming]{JS Skimming}
+
+Just working on my JavaScript knowledge. Skim the W3 course first, then try to actually study it.
+
+%Boost 5
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Code 1
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 2
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 3
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[19 Dec: Fuck]{Fuuuuuuuuuuu -- 2023-12-19} % Top level section
+
+My plan for this whole thing is falling apart. I'm too far behind now. 
+
+%Boost 1
+
+\subsection[JS]{JS Skimming}
+
+More W3 Schools pre study. I'm through arrays. Next is dates.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[22 Dec: Last Day before PA]{Last Day before PA -- 2023-12-22} % Top level section
+
+The original plan is bust. I fell too far behind. I'm going to do whatever I get done today, and maybe spend the travel-heavy day tomorrow thinking about a restructure. I am concerned about the amount I'm getting done in general. I mean, I'm still just skimming the W3 course. I have done a few small coding challenges. And I have fallen behind on the basic job hunt stuff without making much progress for a couple weeks on improving my application. I haven't even implemented Carly's advice yet.
+
+%LinkedIn 1
+
+\subsection[Engtal]{Engtal: Entry Level Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	We are seeking a highly motivated and technically skilled Entry-Level Software Engineer to join our dynamic team. As a Software Engineer, you will be involved in the design, development, testing, and maintenance of software applications. This is an exciting opportunity for a recent graduate or an individual with foundational programming skills to grow within a collaborative and innovative work environment.
+
+\end{quote}
+
+This looks familiar. I don't have the company in here anywhere, though.
+
+Apply on linkedin only, according to the application.
+
+%LinkedIn 2
+
+\subsection[Anika Systems]{Anika Systems: Generative AI Engineer Intern}
+
+\begin{quote}
+	About the job
+	
+	The Generative AI Engineer Intern will work with the technical team to research and develop Generative AI enabled applications and drive intelligent automation solutions for Anika Systems. You will be involved in all phases of AI development, starting from the initial conceptualization, progressing through data gathering and cleansing, to programming the application, and finally, testing and refinement. Your role will combine theoretical design with practical coding, debugging, and optimization of software applications that leverage Large Language Models. You will also have the opportunity to conduct research on the latest advancements in the field of generative AI and contribute ideas on how to incorporate these into our projects.
+
+\end{quote}
+
+I didn't want to look at internships, but honestly, anything to break in at this point. 
+
+%LinkedIn 3
+
+\subsection[VPNforAndroid]{VPNforAndroid: Junior Python Developer}
+
+\begin{quote}
+	About the job
+	
+	In this role, you will work closely with senior developers and other cross-functional teams to develop and maintain high-quality Python applications. As a Junior Python Developer, you will have the opportunity to learn and grow your skills while contributing to exciting projects.
+
+\end{quote}
+
+I could def do junior python.
+
+%LinkedIn 4
+
+\subsection[Montegallo]{Montegallo: Junior Software Engineer}
+
+\begin{quote}
+	About the job
+	
+	Your responsibilities will require you to be familiar in front-end development best practices and frameworks, creating beautiful experiences for our internal and member-facing systems.
+	You will be required to be knowledgeable in understanding user requirements and tailoring user experiences accordingly.
+
+\end{quote}
+
+They want someone with a masters to be a junior software engineer.
+
+%LinkedIn 5
+
+\subsection[VPNforAndroid]{VPNforAndroid: Junior Machine Learning Engineer}
+
+\begin{quote}
+	About the job
+	
+	As a Junior Machine Learning Engineer, you will have the opportunity to work on exciting projects, develop your skills, and contribute to the development and implementation of machine learning solutions. This is an excellent opportunity for individuals looking to kick-start their careers in machine learning and gain valuable experience in a collaborative and supportive environment.
+
+
+\end{quote}
+
+Ooo, ML
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[Premier Staffing Source]{Premier Staffing Source: Statistical Assistant}
+
+\begin{quote}
+	About the job
+	
+	Premier Staffing Source, Inc. is seeking a dedicated Statistical Assistant to play a key role in supporting the roll-out of our client's business intelligence Tableau software at DFS (Department of Financial Services). This 12-month temporary assignment offers a unique opportunity to contribute to a significant project in a dynamic work environment.
+
+\end{quote}
+
+I could stand to boost my statistical know how, esp for machine learning
+
+%Indeed 2
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 3
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 4
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 5
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 2
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 3
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 4
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 5
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Code 1
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 2
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 3
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 4
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 5
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section[20 Dec: Short]{Long -- 2023-12-20} % Top level section
+
+day
+
+%LinkedIn 1
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%LinkedIn 2
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%LinkedIn 3
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%LinkedIn 4
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%LinkedIn 5
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Indeed 1
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 2
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 3
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 4
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%Indeed 5
+
+\subsection[company]{company: job}
+
+\begin{quote}
+	About the job
+	
+	desc
+
+\end{quote}
+
+thoughts
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Boost 1
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 2
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 3
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 4
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%Boost 5
+
+\subsection[thing]{thing: subthing}
+
+Stuff
+
+%	%	%	%	%	%	%	%	%	%	%
+
+%Code 1
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 2
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 3
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 4
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%Code 5
+
+\subsection[Challenge]{challenge: source}
+
+url
+
+\begin{verbatim}
+	code
+\end{verbatim}
+
+thoughts
+
+%----------------------------------------------------------------------------------------
+%	 REFERENCES/BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+\addcontentsline{toc}{section}{Reference List} % Add the bibliography to the table of contents
+
+\begin{twothirdswidth} % Content in this environment to be at two-thirds of the whole page width
+	\printbibliography[title=Reference List] % Output the bibliography with a custom section title
+\end{twothirdswidth}
+
+%----------------------------------------------------------------------------------------
+%	APPENDICES
+%----------------------------------------------------------------------------------------
+
+%\newpage
+
+%\section*{Appendices}
+
+%\begin{appendices}
+
+%\end{appendices}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
